@@ -47,7 +47,7 @@ public class DemoApplication extends Application {
     @Override
     public void onLowMemory() {
         super.onLowMemory();
-        KOChannelSDK.getInstance().onApplicationonLowMemory();
+        KOChannelSDK.getInstance().onApplicationLowMemory();
     }
 
     // -==========================================================
