@@ -1,4 +1,4 @@
-# KOBattleChannleSDK KO对战游戏频道SDK
+# KO对战游戏频道SDK
 #### 功能
 通过该SDK，允许第三方将KO对战游戏频道接入到其应用
 
