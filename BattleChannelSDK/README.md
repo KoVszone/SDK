@@ -5,10 +5,9 @@
 
 SDK接入步骤：
 ####1. 将项目 KOBattleChannel.SDK 导入到Eclipse 中
-####2. 
-在您的项目工程中：
+####2. 在您的项目工程中：
 右键->Properties ->Android ->在Library中选择刚刚导入的KOBattleChannel.SDK项目
-(./config_project_libs.png)
+![Alt text](./config_project_libs.png)
 ####3. 修改AndroidManifest.xml
 在您的项目工程的AndroidManifest.xml 添加如下代码段：
 #####**权限**
