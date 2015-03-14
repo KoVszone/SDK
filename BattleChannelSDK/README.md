@@ -1,9 +1,9 @@
 # KO对战游戏频道SDK
-#### 功能
+### 功能
 通过该SDK，允许第三方将KO对战游戏频道接入到其应用
 
 
-SDK接入步骤：
+###SDK接入步骤：
 ####1. 将项目 KOBattleChannel.SDK 导入到Eclipse 中
 ####2. 在您的项目工程中：
 右键->Properties ->Android ->在Library中选择刚刚导入的KOBattleChannel.SDK项目
