@@ -1,14 +1,13 @@
-# KOBattleChannleSDK KO对战游戏频道SDK
-#### 功能
-通过该SDK，允许第三方将KO对战游戏频道接入到其应用
+# KO对战游戏频道SDK
+### 功能
+通过该SDK，允许第三方将KO对战游戏频道接入到其应用，在该应用中实现在线对战功能。
 
-![Alt text](./battle_home.png)
 
-SDK接入步骤：
+###SDK接入步骤：
 ####1. 将项目 KOBattleChannel.SDK 导入到Eclipse 中
-####2. 
-在您的项目工程中：
+####2. 在您的项目工程中：
 右键->Properties ->Android ->在Library中选择刚刚导入的KOBattleChannel.SDK项目
+![Alt text](./config_project_libs.png)
 ####3. 修改AndroidManifest.xml
 在您的项目工程的AndroidManifest.xml 添加如下代码段：
 #####**权限**
@@ -220,7 +219,7 @@ SDK接入步骤：
     @Override
     public void onLowMemory() {
         super.onLowMemory();
-        KOChannelSDK.getInstance().onApplicationonLowMemory();
+        KOChannelSDK.getInstance().onApplicationLowMemory();
     }
 ```
 ####5. 需要启动KO对战频道的地方（如Button 的onClick)添加代码：
@@ -229,6 +228,16 @@ SDK接入步骤：
         startActivity(intent);
 
 ```
+
+启动成功后将出现如下界面：
+
+![Alt text](./battle_home.png)
+
+####6. 在应用退出时，需要调用以下代码：
+```java
+KOChannelSDK.getInstance().onApplicationExit()
+```
+
 
 -----
 ### 示例DEMO
