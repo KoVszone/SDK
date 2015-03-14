@@ -15,8 +15,7 @@ public class MainActivity extends Activity {
     }
     
     public void onConfirmClick(View v){
-        Intent intent = new Intent(this, StartUpActivity.class);
-        
+        Intent intent = new Intent(this, cn.vszone.ko.tv.battle.channel.StartUpActivity.class);
         startActivity(intent);
     }
 }
