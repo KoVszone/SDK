@@ -4,15 +4,14 @@
 
 ![Alt text](./battle_home.png)
 
-#### SDK接入步骤：
-1. 将项目
-KOBattleChannel.SDK
-导入到Eclipse 中
-2. 
+SDK接入步骤：
+####1. 将项目 KOBattleChannel.SDK 导入到Eclipse 中
+####2. 
 在您的项目工程中：
 右键->Properties ->Android ->在Library中选择刚刚导入的KOBattleChannel.SDK项目
-3. 在您的项目工程的AndroidManifest.xml 添加如下代码段：
-**权限**
+####3. 修改AndroidManifest.xml
+在您的项目工程的AndroidManifest.xml 添加如下代码段：
+#####**权限**
 ``` xml
    <permission
         android:name="cn.vszone.ko.permission.PAUSE_ENGINE"
@@ -60,44 +59,182 @@ KOBattleChannel.SDK
     <uses-permission android:name="cn.vszone.ko.permission.RESUME_ENGINE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
 ``` 
-**applicatin 节点中添加meta**
+#####*applicatin 节点中添加meta**
+``` xml
         <meta-data
             android:name="KO_APPKEY"
             android:value="xxxxxxxxxx" />
         <meta-data
             android:name="KO_CHANNEL"
             android:value="xxxxxxxxx" />
+```
 其中 **KO_CHANNEL**为合作方的名称（英文), **KO_APPKEY** 为应用标识，该值由第三方开发者工程的包名和签名计算，具体计算方法请联系[help@vszone.cn](luoyi@vszone.cn)
 
+#####*applicatin 节点中添加activity, service 等**
 
+```xml
+       <activity
+            android:name="cn.vszone.ko.tv.battle.channel.StartUpActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="cn.vszone.ko.tv.battle.channel.MainBattleListActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/ko_app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.DownLoadWebActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetExitActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.BattleNetExerciseGuideActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.BattleNetTipsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.BattleHallActivity"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetPrepareActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.GamePrepareActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.vszone.tv.gamebox.MyAccountActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.MemoryCleanActivity"
+            android:exported="true"
+            android:process=":prepare"
+            android:theme="@style/TranslucentFullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.vszone.ko.tv.emu.FbaMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.EmuMenuActivity"
+            android:configChanges="keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.MyGamePadActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.GamePadSupportedListActivity"
+            android:launchMode="standard"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.StateSlotsActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/TranslucentFullscreen" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.PadKeyMappingActivity"
+            android:launchMode="standard"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.FbaBNetActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.FbaSettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/TranslucentFullscreen" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.ModifyAvatarActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.ModifyNickNameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetLevelModePrepareActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.FbaBNetLevelModeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
 
-3: **依赖** 在android工程的构建路径中加入SDK的依赖jar包
+        <service android:name="cn.vszone.ko.gm.download.service.DownloadService" />
+        <service android:name="cn.vszone.ko.bnet.core.BattleNetService" />
+        <service android:name="cn.vszone.ko.tv.services.KoGameService" />
+        <service android:name="cn.vszone.ko.gp.GamePadService" />
 
-**libgamepad.jar**//SDK
-**gson-2.3.jar**//JSON
-**protobuf2.5.0.jar**//google通信协议
+        <receiver android:name="cn.vszone.ko.tv.receivers.VsNetReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
 
-以eclipse工程为例 在../libs下
-![Alt text](./1421737547744.png)
-**完成以上1,2,3点后,APP或者游戏就有了支持手柄的能力**
+```
 
-4:**接口拓展**
+####4. Application中添加代码：
 
-拓展 让手柄控制游戏
+```java
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        KOChannelSDK.getInstance().onApplicationCreate(this);
+    }
+    
+    @Override
+    public void onLowMemory() {
+        super.onLowMemory();
+        KOChannelSDK.getInstance().onApplicationonLowMemory();
+    }
+```
+####5. 需要启动KO对战频道的地方（如Button 的onClick)添加代码：
+```java
+        Intent intent = new Intent(this, cn.vszone.ko.tv.battle.channel.StartUpActivity.class);
+        startActivity(intent);
 
-
-
-
------
-### 关于混淆
-在proguard配置文件中添加如下
->-libraryjars gamecontroller.jar
+```
 
 -----
 ### 示例DEMO
-下载地址 https://github.com/Ko/KoGamePadDemo
+下载地址 https://github.com/KoVszone/BattleChannelSDK/KOBattleChannel.Demo
 ``` git
-git clone https://github.com/KoVszone/GamePad
+git clone https://github.com/KoVszone/BattleChannelSDK/KOBattleChannel.Demo
 
 ```
 
@@ -106,5 +243,4 @@ JAVA开发文档见 /doc
 
 
 ###常见问题QA
-Q1:异常 java.lang.VerifyError. **cv.vszone.gamepad
->解决方法 :按照步骤3 导入gson-2.3.jar,protobuf2.5.0.jar依赖文件
+
