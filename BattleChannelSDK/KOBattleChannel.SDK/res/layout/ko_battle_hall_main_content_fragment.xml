@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/battle_hall_battle_info_listview_margin_top_15px" />
+    <FrameLayout android:id="@id/battle_hall_content_battle_info_layout" android:clickable="false" android:layout_width="@dimen/battle_hall_title_bar_width_1162px" android:layout_height="@dimen/battle_hall_battle_info_layout_height_230px" />
+    <View android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/battle_hall_battle_info_listview_margin_top_10px" />
+    <ListView android:id="@id/battle_hall_content_online_person_listview" android:padding="0.0dip" android:scrollbars="none" android:clickable="false" android:layout_width="@dimen/battle_hall_title_bar_width_1162px" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:listSelector="@null" android:stackFromBottom="false" android:dividerHeight="0.0dip" android:smoothScrollbar="false" />
+</LinearLayout>

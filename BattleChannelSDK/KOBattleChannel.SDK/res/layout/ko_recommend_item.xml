@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/recommend_item_iv_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ko_item_default_bg_big_shape" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/ko_app_name" />
+    <TextView android:textSize="@dimen/font_size38px" android:textStyle="bold" android:textColor="@color/ko_font_white" android:id="@id/recommend_item_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/recommend_item_margin_left_20px" android:layout_marginBottom="@dimen/recommend_item_margin_bottom_20px" android:layout_alignLeft="@id/recommend_item_iv_icon" android:layout_alignBottom="@id/recommend_item_iv_icon" style="@style/KoTextStyle" />
+</RelativeLayout>

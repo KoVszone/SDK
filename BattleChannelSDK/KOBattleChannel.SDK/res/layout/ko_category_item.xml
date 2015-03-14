@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/category_item_iv_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ko_item_default_bg_big_shape" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/ko_app_name" />
+    <TextView android:textSize="@dimen/font_size38px" android:textStyle="bold" android:textColor="@color/ko_white" android:id="@id/category_item_tv_name" android:paddingLeft="@dimen/category_item_tv_name_padding_left_24px" android:paddingRight="@dimen/category_item_tv_name_padding_left_24px" android:paddingBottom="@dimen/category_item_tv_name_padding_bottom_30px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/category_item_iv_icon" android:layout_alignBottom="@id/category_item_iv_icon" style="@style/KoTextStyle" />
+</RelativeLayout>

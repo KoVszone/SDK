@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ko_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/has_focus_lyt_content" android:background="@color/ko_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/has_focus_iv_focus" android:background="@drawable/ko_focus_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/ko_app_name" />
+</RelativeLayout>

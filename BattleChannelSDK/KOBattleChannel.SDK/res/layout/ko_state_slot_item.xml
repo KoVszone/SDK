@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ko_slot_menu_item_selector" android:padding="@dimen/state_slot_item_padding_25px" android:focusable="true" android:layout_width="@dimen/state_slot_item_width_1042px" android:layout_height="@dimen/state_slot_item_height_250px" android:layout_marginLeft="@dimen/state_slot_title_left_100px" android:layout_marginTop="@dimen/state_slot_item_top_30px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/screenshot" android:layout_width="@dimen/state_slot_item_image_width_356px" android:layout_height="@dimen/state_slot_item_image_height_202px" android:layout_marginRight="@dimen/state_slot_item_image_right_40px" android:src="@drawable/ko_pic_file_default" android:scaleType="fitXY" android:contentDescription="@string/ko_image" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_size64px" android:textStyle="bold" android:textColor="@color/ko_white" android:ellipsize="marquee" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/state_slot_item_name_bottom_30px" android:text="存档一" android:singleLine="true" />
+        <TextView android:textSize="@dimen/font_size28px" android:textColor="@color/ko_white" android:layout_gravity="center_vertical" android:id="@id/detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2014-08-08  12:00:03" />
+    </LinearLayout>
+</LinearLayout>

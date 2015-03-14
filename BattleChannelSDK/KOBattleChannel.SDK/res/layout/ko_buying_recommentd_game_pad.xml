@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/left_container" android:background="@color/ko_android_gray" android:padding="@dimen/pad_key_mapping_footer_menu_size_42px" android:layout_width="@dimen/buying_recommend_game_pad_600px" android:layout_height="@dimen/buying_recommend_game_pad_600px">
+        <TextView android:textSize="@dimen/font_size48px" android:textColor="@color/ko_font_dark_black" android:id="@id/game_pad_brand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_recommend_text" android:layout_above="@id/recommendText" android:layout_alignLeft="@id/recommendText" />
+        <TextView android:textSize="@dimen/font_size48px" android:textColor="@color/ko_font_dark_black" android:gravity="right" android:id="@id/game_pad_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_recommend_text" android:layout_alignTop="@id/game_pad_brand" android:layout_alignRight="@id/recommendText" />
+        <TextView android:textSize="@dimen/font_size48px" android:textColor="@color/ko_font_dark_black" android:gravity="center" android:id="@id/recommendText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ko_recommend_text" android:layout_alignParentBottom="true" android:lineSpacingMultiplier="1.5" />
+    </RelativeLayout>
+    <ImageView android:id="@id/quick_response_code_view" android:layout_width="@dimen/buying_recommend_game_pad_600px" android:layout_height="@dimen/buying_recommend_game_pad_600px" android:src="@drawable/ko_ico_my_gamepad_disable" android:contentDescription="@string/ko_quick_response_code" />
+</LinearLayout>

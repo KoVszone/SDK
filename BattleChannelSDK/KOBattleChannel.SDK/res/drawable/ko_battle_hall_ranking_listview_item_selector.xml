@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ko_white_border_bg" />
+    <item android:drawable="@drawable/ko_battle_hall_ranking_listview_item_default" />
+</selector>

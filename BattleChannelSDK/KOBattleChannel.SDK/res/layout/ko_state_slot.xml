@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/stateSlotsLl" android:background="@drawable/ko_bg_sub_menu_side" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/state_slot_layout_left_722px">
+        <TextView android:textSize="@dimen/font_size62px" android:textStyle="bold" android:textColor="@color/ko_white" android:id="@id/titleTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/state_slot_title_left_100px" android:layout_marginTop="@dimen/state_slot_title_top_80px" android:text="@string/ko_save_slot" android:drawableLeft="@drawable/ko_ico_arrow_r" />
+        <include android:id="@id/state_slot_layout1" layout="@layout/ko_state_slot_item" />
+        <include android:id="@id/state_slot_layout2" layout="@layout/ko_state_slot_item" />
+        <include android:id="@id/state_slot_layout3" layout="@layout/ko_state_slot_item" />
+    </LinearLayout>
+</RelativeLayout>

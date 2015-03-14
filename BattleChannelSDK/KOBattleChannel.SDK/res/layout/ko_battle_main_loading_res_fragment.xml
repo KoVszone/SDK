@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ko_channel_load_res_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.opengl.GLSurfaceView android:id="@id/main_glsv_gpu" android:layout_width="0.00999999dip" android:layout_height="0.00999999dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ko_battle_loading_ll" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/ko_battle_loading_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_white_per60" android:id="@id/ko_battle_loading_progress_tv" android:background="@drawable/ko_battle_load_res_progress_tv_bg" android:paddingLeft="@dimen/ko_battle_main_margin_20px" android:paddingTop="@dimen/ko_battle_main_margin_10px" android:paddingRight="@dimen/ko_battle_main_margin_20px" android:paddingBottom="@dimen/ko_battle_main_margin_10px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ko_battle_main_margin_20px" android:text="@string/ko_battle_load_res" style="@style/KoTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ko_battle_loading_fail_ll" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/font_size28px" android:textColor="@color/ko_white_per80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_battle_load_res_fail" style="@style/KoTextStyle" />
+        <FrameLayout android:id="@id/ko_battle_channel_reload_button" android:background="@drawable/ko_focus_down" android:padding="20.0px" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ko_battle_main_margin_20px" android:minWidth="@dimen/ko_battle_channel_loaing_button_width_186px" android:minHeight="@dimen/ko_battle_channel_loaing_button_height_48px">
+            <TextView android:textSize="@dimen/font_size28px" android:textColor="@color/ko_white" android:gravity="center" android:layout_gravity="center" android:background="@drawable/ko_battle_channel_menu_selected_shape" android:layout_width="@dimen/ko_battle_channel_loaing_button_width_186px" android:layout_height="@dimen/ko_battle_channel_loaing_button_height_48px" android:text="@string/ko_battle_load_res_reload" android:layout_centerInParent="true" style="@style/KoTextStyle" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

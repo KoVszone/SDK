@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/ko_qr_code_width_160px" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ko_font_size20px" android:textColor="@color/ko_qr_code_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ko_battle_QRCode_tips_name" android:singleLine="true" />
+    <FrameLayout android:id="@id/ko_battle_qr_code_anim_bg" android:layout_width="@dimen/ko_qr_code_width_160px" android:layout_height="@dimen/ko_qr_code_width_160px" android:layout_marginTop="@dimen/ko_qr_code_margin_20px">
+        <ImageView android:id="@id/ko_battle_qr_code_anim_qr_code" android:layout_width="@dimen/ko_qr_code_width_160px" android:layout_height="@dimen/ko_qr_code_width_160px" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_size22px" android:textColor="@color/ko_qr_code_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ko_qr_code_margin_30px" android:text="@string/ko_battle_QRCode_tips_none" android:singleLine="true" />
+    <TextView android:textSize="@dimen/font_size26px" android:textColor="@color/ko_qr_code_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ko_qr_code_margin_8px" android:text="@string/ko_battle_QRCode_tips_download" android:singleLine="true" />
+</LinearLayout>

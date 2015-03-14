@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/ko_bg_toptools" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/toolbar_tv_focus_bg" android:background="@drawable/ko_btn_toptools" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_alignParentRight="true" />
+    <View android:id="@id/toolbar_tv_frist_focus_view" android:tag="@string/ko_no_focus_tag" android:focusable="true" android:layout_width="0.100000024dip" android:layout_height="0.100000024dip" android:layout_alignParentRight="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/toolbar_fragment_toolbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <cn.vszone.ko.tv.views.ToolBarItemView android:id="@id/toolbar_item_net" android:tag="@string/ko_no_focus_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:id="@id/toolbar_item_net_line" android:background="@color/ko_white_per50" android:visibility="gone" android:layout_width="@dimen/toolbar_item_spit_width_1px" android:layout_height="@dimen/toolbar_item_spit_high_30px" android:layout_marginLeft="@dimen/toolbar_item_spit_margin_30px" android:layout_marginRight="@dimen/toolbar_item_spit_margin_30px" />
+        <cn.vszone.ko.tv.views.ToolBarItemView android:id="@id/toolbar_item_storage" android:tag="@string/ko_no_focus_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="@color/ko_white_per50" android:layout_width="@dimen/toolbar_item_spit_width_1px" android:layout_height="@dimen/toolbar_item_spit_high_30px" android:layout_marginLeft="@dimen/toolbar_item_spit_margin_30px" android:layout_marginRight="@dimen/toolbar_item_spit_margin_30px" />
+        <cn.vszone.ko.tv.views.ToolBarItemView android:id="@id/toolbar_item_handle" android:tag="@string/ko_no_focus_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="@color/ko_white_per50" android:layout_width="@dimen/toolbar_item_spit_width_1px" android:layout_height="@dimen/toolbar_item_spit_high_30px" android:layout_marginLeft="@dimen/toolbar_item_spit_margin_30px" android:layout_marginRight="@dimen/toolbar_item_spit_margin_30px" />
+        <cn.vszone.ko.tv.views.ToolBarItemView android:id="@id/toolbar_item_search" android:tag="@string/ko_no_focus_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/toolbar_item_right_margin_60px" />
+    </LinearLayout>
+</RelativeLayout>

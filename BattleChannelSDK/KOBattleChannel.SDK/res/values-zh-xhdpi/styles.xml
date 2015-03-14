@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationBar">
+        <item name="android:textSize">@dimen/font_size36px</item>
+        <item name="android:textColor">@drawable/ko_navigation_bar_textcolor_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_padding_18px</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_horizontal_16px</item>
+        <item name="android:layout_marginRight">@dimen/margin_horizontal_16px</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TipPaditemStyle">
+        <item name="android:textSize">@dimen/font_size32px</item>
+    </style>
+</resources>

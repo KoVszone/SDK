@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="@dimen/search_result_item_width_662px" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size32px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_everyone_search" />
+    <ListView android:id="@id/search_game_everyone_search_listview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/search_everyone_search_listview_margin_top_32px" android:listSelector="@drawable/ko_search_keybroad_function_button_selector" android:stackFromBottom="false" android:divider="@null" android:dividerHeight="@dimen/search_everyone_search_item_divider_height_16px" />
+</LinearLayout>

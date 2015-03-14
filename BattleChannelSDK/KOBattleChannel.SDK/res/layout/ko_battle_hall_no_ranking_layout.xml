@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="@string/ko_no_focus_tag" android:background="@drawable/ko_battle_hall_rounded_black_bg" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/battle_hall_no_rankings_ico_size_160px" android:layout_height="@dimen/battle_hall_no_rankings_ico_size_160px" android:src="@drawable/ko_vs_ico_face_1" android:scaleType="fitCenter" android:contentDescription="@string/ko_image_description" />
+        <TextView android:textSize="@dimen/font_size44px" android:textColor="@color/ko_white_per60" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_no_rankings_magin_top_34px" android:text="@string/ko_no_ranking" style="@style/WhiteTextStyle" />
+    </LinearLayout>
+</FrameLayout>

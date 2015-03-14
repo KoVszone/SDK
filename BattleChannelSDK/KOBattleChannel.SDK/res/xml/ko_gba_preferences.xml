@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidemu="http://androidemu.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ko_audio_settings">
+        <CheckBoxPreference android:title="@string/ko_enable_sound" android:key="soundEnabled" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ko_video_settings">
+        <cn.vszone.emulator.view.VsListPreference android:entries="@array/ko_gba_scaling_mode_entries" android:title="@string/ko_scaling_mode" android:key="scalingMode" android:defaultValue="stretch" android:entryValues="@array/ko_gba_scaling_mode_entryvalues" />
+        <CheckBoxPreference android:title="@string/ko_auto_frame_skip" android:key="autoFrameSkip" android:defaultValue="true" />
+        <cn.vszone.emulator.gba.SeekBarPreference android:title="@string/ko_max_frame_skips" android:key="maxFrameSkips" android:summary="@string/ko_max_frame_skips_summary" android:defaultValue="2" androidemu:maxValue="10" />
+    </PreferenceCategory>
+</PreferenceScreen>

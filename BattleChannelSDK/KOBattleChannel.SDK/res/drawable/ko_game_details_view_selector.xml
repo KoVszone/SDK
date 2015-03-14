@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/ko_game_details_view_focus" />
+    <item android:drawable="@drawable/ko_white_shape" />
+</selector>

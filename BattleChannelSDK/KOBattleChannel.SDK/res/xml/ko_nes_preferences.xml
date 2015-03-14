@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidemu="http://androidemu.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ko_audio_settings">
+        <CheckBoxPreference android:title="@string/ko_enable_sound" android:key="nes_soundEnabled" android:defaultValue="true" />
+        <cn.vszone.emulator.fc.SeekBarPreference android:title="@string/ko_sound_volume" android:key="nes_soundVolume" android:dependency="nes_soundEnabled" android:defaultValue="100" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ko_video_settings">
+        <cn.vszone.emulator.view.VsListPreference android:entries="@array/ko_scaling_mode_entries" android:title="@string/ko_scaling_mode" android:key="nes_scalingMode" android:defaultValue="stretched" android:entryValues="@array/ko_scaling_mode_entryvalues" />
+        <cn.vszone.emulator.view.VsListPreference android:entries="@array/ko_aspect_ratio_entries" android:title="@string/ko_aspect_ratio" android:key="nes_aspectRatio" android:defaultValue="1.3333" android:entryValues="@array/ko_aspect_ratio_entryvalues" />
+        <CheckBoxPreference android:title="@string/ko_accurate_rendering" android:key="nes_accurateRendering" android:summary="@string/ko_accurate_rendering_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/ko_frame_skip_settings">
+        <cn.vszone.emulator.view.VsListPreference android:entries="@array/ko_frame_skip_entries" android:title="@string/ko_frame_skip_mode" android:key="nes_frameSkipMode" android:defaultValue="auto" android:entryValues="@array/ko_frame_skip_entryvalues" />
+        <cn.vszone.emulator.fc.SeekBarPreference android:title="@string/ko_max_frame_skips" android:key="nes_maxFrameSkips" android:summary="@string/ko_max_frame_skips_summary" android:defaultValue="2" androidemu:maxValue="10" />
+    </PreferenceCategory>
+</PreferenceScreen>

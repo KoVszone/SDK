@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vszone.ko.battlechannel.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <permission
+        android:name="cn.vszone.ko.permission.PAUSE_ENGINE"
+        android:protectionLevel="dangerous" >
+    </permission>
+    <permission
+        android:name="cn.vszone.ko.permission.RESUME_ENGINE"
+        android:protectionLevel="dangerous" >
+    </permission>
+
+    <!-- 接收系统通知权限组 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.Manifest.permission.KILL_BACKGROUND_PROCESSES" />
+    <!-- 保持屏幕高亮权限组 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 访问网络状态权限组 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 读写SD卡权限组 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 读取IMEI的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 系统操作权限组 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <!-- 全局Dialog -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 全局Dialog -->
+    <uses-permission android:name="cn.vszone.ko.permission.PAUSE_ENGINE" />
+    <uses-permission android:name="cn.vszone.ko.permission.RESUME_ENGINE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-feature
+        android:name="android.hardware.type.television"
+        android:required="true" />
+
+    <application
+        android:name=".DemoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="53bcf75856240baea6015460" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Website" />
+        <meta-data
+            android:name="KO_APPKEY"
+            android:value="8f58a2504664c9f444479035" />
+        <meta-data
+            android:name="KO_CHANNEL"
+            android:value="KO_DEMO" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.vszone.ko.tv.battle.channel.StartUpActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="cn.vszone.ko.tv.battle.channel.MainBattleListActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/ko_app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.DownLoadWebActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetExitActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.BattleNetExerciseGuideActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.BattleNetTipsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.BattleHallActivity"
+            android:hardwareAccelerated="false"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetPrepareActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.GamePrepareActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.vszone.tv.gamebox.MyAccountActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.MemoryCleanActivity"
+            android:exported="true"
+            android:process=":prepare"
+            android:theme="@style/TranslucentFullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.vszone.ko.tv.emu.FbaMainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.EmuMenuActivity"
+            android:configChanges="keyboardHidden"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.MyGamePadActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.GamePadSupportedListActivity"
+            android:launchMode="standard"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.StateSlotsActivity"
+            android:configChanges="keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@style/TranslucentFullscreen" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.PadKeyMappingActivity"
+            android:launchMode="standard"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.FbaBNetActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.FbaSettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/TranslucentFullscreen" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.ModifyAvatarActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.ModifyNickNameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetLevelModePrepareActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/BlurBackgroundTheme" />
+        <activity
+            android:name="cn.vszone.ko.tv.emu.bnet.FbaBNetLevelModeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+
+        <service android:name="cn.vszone.ko.gm.download.service.DownloadService" />
+        <service android:name="cn.vszone.ko.bnet.core.BattleNetService" />
+        <service android:name="cn.vszone.ko.tv.services.KoGameService" />
+        <service android:name="cn.vszone.ko.gp.GamePadService" />
+
+        <receiver android:name="cn.vszone.ko.tv.receivers.VsNetReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

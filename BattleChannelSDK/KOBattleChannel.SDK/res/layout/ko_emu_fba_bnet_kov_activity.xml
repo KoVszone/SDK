@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:background="@color/ko_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.vszone.arc.media.VsGLSurface android:layout_gravity="center" android:id="@id/Surface" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/fba_bnet_iv_effect" android:background="@color/ko_black_per70" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/ko_image_description" />
+    <RelativeLayout android:id="@id/fba_bnet_rlt_player_parents" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.tv.views.BNetPlayerInfoView android:id="@id/fba_bnet_bpi_players" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.tv.views.BNetPlayerStatus android:id="@id/fba_bnet_lyt_player_status" android:background="@color/ko_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.tv.views.BNetLevelResultVeiw android:id="@id/fba_bnet_lyt_result" android:background="@color/ko_transparent" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.tv.views.BNetPicPromptFlash android:layout_gravity="center" android:id="@id/fba_bnet_pf_me" android:background="@color/ko_transparent" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/content_f" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

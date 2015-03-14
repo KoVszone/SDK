@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/battle_hall_daily_ranking_title_iv" android:layout_width="@dimen/battle_hall_daily_ranking_title_width_800px" android:layout_height="@dimen/battle_hall_daily_ranking_title_height_140px" android:layout_marginLeft="@dimen/battle_hall_header_margin_left_140px" android:layout_marginTop="@dimen/battle_hall_header_margin_top_76px" android:src="@drawable/ko_vs_ico_ranking_title_2" android:scaleType="fitCenter" android:contentDescription="@string/ko_image_description" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.vszone.ko.widget.list.AnimationListView android:id="@id/battle_hall_daily_ranking_listview" android:tag="@string/ko_no_focus_tag" android:scrollbars="none" android:fadingEdgeLength="@dimen/fade_edge_30px" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/battle_hall_ranking_listview_margin_left_66px" android:layout_marginTop="@dimen/battle_hall_ranking_listview_margin_top_24px" android:listSelector="@drawable/ko_battle_hall_transparent_selector" android:stackFromBottom="false" android:cacheColorHint="@color/ko_transparent" android:divider="@null" android:dividerHeight="@dimen/list_line_spacing_20px" android:smoothScrollbar="true" android:requiresFadingEdge="vertical" />
+        <include android:layout_gravity="center" android:id="@id/battle_hall_no_rankings_layout" android:layout_width="@dimen/battle_hall_no_rankings_width_1642px" android:layout_height="fill_parent" layout="@layout/ko_battle_hall_no_ranking_layout" />
+    </FrameLayout>
+</LinearLayout>

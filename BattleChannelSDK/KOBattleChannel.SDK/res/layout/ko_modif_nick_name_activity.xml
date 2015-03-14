@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/main_frame_activity_fmt_device_status" android:tag="device_status_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_frame_margin_top_30px" android:layout_marginRight="@dimen/main_frame_device_status_marginRight_50px" android:layout_alignParentTop="true" android:layout_alignParentRight="true" class="cn.vszone.ko.tv.fragments.DeviceStatusBarFragment" />
+    <TextView android:textSize="@dimen/font_size72px" android:textColor="@color/ko_font_white" android:id="@id/modif_nick_name_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/modif_nick_name_tv_title_marginleft_836px" android:layout_marginTop="@dimen/margin_vertical_40px" android:text="@string/ko_my_account_modif_nick_name" android:layout_centerHorizontal="true" style="@style/WhiteTextStyle" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/modif_nick_name_hfvrty_content_margintop_126px" android:layout_below="@id/modif_nick_name_tv_title">
+        <RelativeLayout android:id="@id/modif_nick_name_hfvrty_content" android:layout_width="@dimen/modif_nick_name_hfvrty_content_width_670px" android:layout_height="@dimen/modif_nick_name_hfvrty_content_height_272px" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/ko_white_shape_opaque" android:layout_width="@dimen/modif_nick_name_iv_scancode_width_250px" android:layout_height="fill_parent">
+            <ImageView android:id="@id/modif_nick_name_iv_scancode" android:layout_width="@dimen/modif_nick_name_iv_scancode_width_250px" android:layout_height="@dimen/modif_nick_name_iv_scancode_height_236px" android:contentDescription="@string/ko_my_account" />
+            <TextView android:textSize="@dimen/font_size22px" android:textColor="@color/ko_android_black" android:background="@drawable/ko_white_shape_opaque" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/my_account_scancode__margintop_f6px" android:text="@string/ko_modify_nick_san_in_mobile" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

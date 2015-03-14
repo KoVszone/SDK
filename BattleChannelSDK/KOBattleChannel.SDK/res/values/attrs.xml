@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="reference" />
+    <attr name="textSize" format="dimension" />
+    <attr name="textColor" format="reference|color" />
+    <attr name="corner_radius" format="dimension" />
+    <attr name="border_width" format="dimension" />
+    <attr name="border_color" format="color" />
+    <attr name="mutate_background" format="boolean" />
+    <attr name="oval" format="boolean" />
+    <attr name="backgroundColor" format="reference|color" />
+    <attr name="lineSpacingExtra" format="dimension" />
+    <attr name="number" format="integer" />
+    <attr name="style">
+        <enum name="orange" value="0" />
+        <enum name="white" value="1" />
+        <enum name="orange_big" value="2" />
+        <enum name="white_big" value="3" />
+    </attr>
+    <attr name="minLength" format="integer" />
+    <attr name="numberBackground" format="reference" />
+    <attr name="numberSpacing" format="dimension" />
+    <attr name="textStyle">
+        <enum name="normal" value="0" />
+        <enum name="bold" value="1" />
+        <enum name="italic" value="2" />
+    </attr>
+    <attr name="drawableTop" format="reference" />
+    <attr name="drawableBottom" format="reference" />
+    <attr name="drawableLeft" format="reference" />
+    <attr name="drawableRight" format="reference" />
+    <attr name="zoomscale" format="float" />
+    <attr name="radius" format="integer" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="centered" format="boolean" />
+    <attr name="fillColor" format="color" />
+    <attr name="pageColor" format="color" />
+    <attr name="center_radius" format="dimension" />
+    <attr name="snap" format="boolean" />
+    <attr name="strokeColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="view_radius" format="dimension" />
+</resources>

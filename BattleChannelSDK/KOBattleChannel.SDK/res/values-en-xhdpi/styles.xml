@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TipPaditemStyle">
+        <item name="android:textSize">@dimen/font_size26px</item>
+    </style>
+</resources>

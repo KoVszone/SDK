@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:tag="device_status_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_main_frame_margin_top_20px" android:layout_marginRight="@dimen/setting_main_frame_margin_right_100px" android:layout_alignParentTop="true" android:layout_alignParentRight="true" class="cn.vszone.ko.tv.fragments.DeviceStatusBarFragment" />
+    <TextView android:textSize="@dimen/font_size72px" android:textStyle="bold" android:textColor="@color/ko_white" android:id="@id/setting_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/setting_main_tv_title_margin_top_38px" android:text="@string/ko_more_setting" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/KoTextStyle" />
+    <RelativeLayout android:id="@id/setting_hfv_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/setting_main_hfv_root_margin_top_38px" />
+    <ImageView android:id="@id/operation_iv_tips" android:layout_width="@dimen/operation_tips_width_358px" android:layout_height="@dimen/operation_tips_height_58px" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/ko_app_name" />
+</RelativeLayout>

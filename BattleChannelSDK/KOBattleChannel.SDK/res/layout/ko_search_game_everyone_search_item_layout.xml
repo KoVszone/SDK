@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_size36px" android:textColor="@color/ko_white" android:gravity="left|center" android:background="@drawable/ko_search_keybroad_function_button_selector" android:paddingLeft="@dimen/search_everyone_search_item_padding_left_30px" android:layout_width="@dimen/search_result_item_width_662px" android:layout_height="@dimen/search_everyone_search_item_height_90px" style="@style/WhiteTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

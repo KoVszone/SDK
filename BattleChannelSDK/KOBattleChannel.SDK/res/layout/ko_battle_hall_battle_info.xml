@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:clickable="false" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/battle_info_front_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/ko_battle_hall_battle_info_item" />
+    <include android:id="@id/battle_info_back_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/ko_battle_hall_battle_info_item" />
+</FrameLayout>

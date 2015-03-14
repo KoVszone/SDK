@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/ko_toolbar_item_select" android:layout_width="@dimen/toolbar_item_width_270px" android:layout_height="@dimen/toolbar_item_height_88px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/toolbar_icon_view" android:layout_width="@dimen/toolbar_item_icon_width_62px" android:layout_height="@dimen/toolbar_item_icon_height_50px" />
+    <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_white" android:id="@id/toolbar_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VS_office" style="@style/KoTextStyle" />
+</LinearLayout>

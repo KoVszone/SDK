@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@drawable/ko_black_transparent_shape" android:layout_width="@dimen/modify_avatar_item_llt_width_379px" android:layout_height="@dimen/modify_avatar_item_llt_width_379px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/modify_avatar_item_iv_icon" android:layout_width="@dimen/modify_avatar_item_riv_width_374px" android:layout_height="@dimen/modify_avatar_item_riv_height_374px" android:src="@drawable/ic_launcher" android:contentDescription="@string/ko_image_description" />
+</LinearLayout>

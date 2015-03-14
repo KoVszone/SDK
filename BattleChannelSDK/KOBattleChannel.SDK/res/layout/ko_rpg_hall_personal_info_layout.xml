@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/ko_battle_hall_rounded_grey_stroken_bg" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="@dimen/battle_hall_personal_info_item_width_410px" android:layout_height="@dimen/battle_hall_personal_info_item_height_532px">
+        <TextView android:textSize="@dimen/font_size44px" android:textColor="@color/ko_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/battle_hall_personal_info_name" android:layout_width="wrap_content" android:layout_height="@dimen/battle_hall_personal_info_first_height_88px" style="@style/WhiteTextStyle" />
+        <include android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/ko_battle_hall_divide_line" />
+        <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/battle_hall_personal_info_second_height_202px" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_30px">
+            <cn.vszone.ko.widget.image.RoundedImageView android:id="@id/battle_hall_personal_info_avatar" android:layout_width="@dimen/battle_hall_avatar_size_128px" android:layout_height="@dimen/battle_hall_avatar_size_128px" android:src="@drawable/ko_avatar_default" android:scaleType="fitCenter" app:corner_radius="@dimen/radius10px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_24px">
+                <TextView android:textSize="@dimen/font_size30px" android:textColor="@color/ko_white_per80" android:id="@id/battle_hall_personal_info_win_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WhiteTextStyle" />
+                <TextView android:textSize="@dimen/font_size30px" android:textColor="@color/ko_white_per80" android:id="@id/battle_hall_personal_info_lose_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_personal_info_margin_28px" style="@style/WhiteTextStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <include android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/ko_battle_hall_divide_line" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_30px" android:layout_marginTop="@dimen/battle_hall_personal_info_margin_48px">
+            <ImageView android:layout_width="@dimen/battle_hall_top_score_ico_width_142px" android:layout_height="@dimen/battle_hall_top_score_ico_height_52px" android:src="@drawable/ko_vs_ico_best_history" android:scaleType="fitXY" android:contentDescription="@string/ko_image_description" />
+            <TextView android:textSize="@dimen/font_size36px" android:textColor="@color/ko_white_per80" android:gravity="left|center" android:id="@id/battle_hall_personal_info_total_history_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_12px" android:ems="10" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_30px" android:layout_marginTop="@dimen/battle_hall_personal_info_margin_40px">
+            <ImageView android:layout_width="@dimen/battle_hall_top_score_ico_width_142px" android:layout_height="@dimen/battle_hall_top_score_ico_height_52px" android:src="@drawable/ko_vs_ico_best_today_wo3k" android:scaleType="fitXY" android:contentDescription="@string/ko_image_description" />
+            <TextView android:textSize="@dimen/font_size36px" android:textColor="@color/ko_white_per80" android:gravity="left|center" android:id="@id/battle_hall_personal_info_total_today_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_12px" android:ems="10" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/battle_hall_personal_info_floating_view" android:focusable="false" android:focusableInTouchMode="false" android:visibility="invisible" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="@dimen/battle_hall_personal_info_item_width_410px" android:layout_height="@dimen/battle_hall_personal_info_item_height_532px">
+        <View android:layout_gravity="center" android:background="@drawable/ko_battle_hall_rounded_transparent_floating_floor" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:background="@drawable/ko_vs_ico_id" android:layout_width="@dimen/battle_hall_personal_info_ico_size_230px" android:layout_height="@dimen/battle_hall_personal_info_ico_size_230px" />
+            <TextView android:textSize="@dimen/font_size58px" android:textStyle="bold" android:textColor="@color/ko_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_my_account" style="@style/WhiteTextStyle" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

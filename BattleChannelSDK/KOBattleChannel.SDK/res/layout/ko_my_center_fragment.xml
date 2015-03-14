@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.vszone.ko.tv.views.CustomDrawOrderRelativeLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:koandroid="http://schemas.android.com/apk/res-auto">
+    <cn.vszone.ko.tv.views.MineItemView android:id="@id/my_center_my_games" android:focusable="true" android:layout_width="@dimen/mycenter_mineItem_width_394px" android:layout_height="@dimen/mycenter_fragment_mineItem_heigth_680px" koandroid:zoomscale="1.1" />
+    <cn.vszone.ko.tv.views.MineItemView android:id="@id/my_center_my_account" android:layout_width="@dimen/mycenter_mineItem_width_394px" android:layout_height="@dimen/mycenter_fragment_mineItem_heigth_680px" android:layout_marginLeft="@dimen/mycenter_fragment_mineItem_margin_left_20px" android:layout_toRightOf="@id/my_center_my_games" android:layout_alignTop="@id/my_center_my_games" koandroid:zoomscale="1.1" />
+    <cn.vszone.ko.tv.views.MineItemView android:id="@id/my_center_search" android:layout_width="@dimen/mycenter_mineItem_width_394px" android:layout_height="@dimen/mycenter_fragment_mineItem_heigth_680px" android:layout_marginLeft="@dimen/mycenter_fragment_mineItem_margin_left_20px" android:layout_toRightOf="@id/my_center_my_account" android:layout_alignTop="@id/my_center_my_games" koandroid:zoomscale="1.1" />
+    <View android:layout_width="@dimen/recommend_fragment_view_width_60px" android:layout_height="@dimen/recommend_fragment_view_width_60px" android:layout_below="@id/my_center_my_games" />
+</cn.vszone.ko.tv.views.CustomDrawOrderRelativeLayout>

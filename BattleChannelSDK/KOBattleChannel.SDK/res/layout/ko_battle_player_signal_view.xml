@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/battle_player_ll_signal1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p1_ping" android:layout_width="@dimen/fba_bnet_iv_p1_ping_width_104px" android:layout_height="@dimen/fba_bnet_iv_p1_ping_height_80px" android:contentDescription="@string/ko_image_description" />
+        <TextView android:textSize="@dimen/font_size48px" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p1_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fba_bnet_lyt_p1_margin_20px" android:text="@string/ko_bnet_player" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/battle_player_ll_signal2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p2_ping" android:layout_width="@dimen/fba_bnet_iv_p1_ping_width_104px" android:layout_height="@dimen/fba_bnet_iv_p1_ping_height_80px" android:contentDescription="@string/ko_image_description" />
+        <TextView android:textSize="@dimen/font_size48px" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p2_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fba_bnet_lyt_p1_margin_20px" android:text="@string/ko_bnet_player" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/battle_player_ll_signal3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p3_ping" android:layout_width="@dimen/fba_bnet_iv_p1_ping_width_104px" android:layout_height="@dimen/fba_bnet_iv_p1_ping_height_80px" android:contentDescription="@string/ko_image_description" />
+        <TextView android:textSize="@dimen/font_size48px" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p3_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fba_bnet_lyt_p1_margin_20px" android:text="@string/ko_bnet_player" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/battle_player_ll_signal4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p4_ping" android:layout_width="@dimen/fba_bnet_iv_p1_ping_width_104px" android:layout_height="@dimen/fba_bnet_iv_p1_ping_height_80px" android:contentDescription="@string/ko_image_description" />
+        <TextView android:textSize="@dimen/font_size48px" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/fba_bnet_iv_p4_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fba_bnet_lyt_p1_margin_20px" android:text="@string/ko_bnet_player" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

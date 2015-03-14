@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.vszone.ko.tv.views.CustomDrawOrderRelativeLayout android:gravity="center" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:koandroid="http://schemas.android.com/apk/res-auto">
+    <cn.vszone.ko.tv.views.SettingItemView android:id="@id/setting_view_about_us" android:layout_width="@dimen/setting_main_item_382px" android:layout_height="@dimen/setting_main_item_546px" koandroid:zoomscale="1.1" />
+    <cn.vszone.ko.tv.views.SettingItemView android:id="@id/setting_view_update" android:layout_width="@dimen/setting_main_item_382px" android:layout_height="@dimen/setting_main_item_546px" android:layout_marginLeft="@dimen/setting_main_item_space_40px" android:layout_toRightOf="@id/setting_view_about_us" android:layout_alignTop="@id/setting_view_about_us" koandroid:zoomscale="1.1" />
+    <cn.vszone.ko.tv.views.SettingItemView android:id="@id/setting_view_copyright" android:layout_width="@dimen/setting_main_item_382px" android:layout_height="@dimen/setting_main_item_546px" android:layout_marginLeft="@dimen/setting_main_item_space_40px" android:layout_toRightOf="@id/setting_view_update" android:layout_alignTop="@id/setting_view_update" koandroid:zoomscale="1.1" />
+    <cn.vszone.ko.tv.views.SettingItemView android:id="@id/setting_view_feedback" android:layout_width="@dimen/setting_main_item_382px" android:layout_height="@dimen/setting_main_item_546px" android:layout_marginLeft="@dimen/setting_main_item_space_40px" android:layout_toRightOf="@id/setting_view_copyright" android:layout_alignTop="@id/setting_view_copyright" koandroid:zoomscale="1.1" />
+</cn.vszone.ko.tv.views.CustomDrawOrderRelativeLayout>

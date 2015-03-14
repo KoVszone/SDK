@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:id="@id/ko_battle_main_list_item_root" android:layout_width="@dimen/ko_battle_main_code_focus_width_305px" android:layout_height="@dimen/ko_battle_main_list_item_parent_height_570px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/ko_battle_main_list_item_iv_bg" android:layout_width="@dimen/ko_battle_main_code_width_265px" android:layout_height="@dimen/ko_battle_main_list_item_height_516px">
+        <cn.vszone.ko.tv.battle.channel.view.BattleQRCodeView android:id="@id/ko_battle_main_list_item_codeview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

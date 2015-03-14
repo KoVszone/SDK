@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/download_webview_layout" android:background="@color/ko_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/ko_webview_shape" android:layout_width="@dimen/download_webview_layout_width_882px" android:layout_height="@dimen/download_webview_layout_height_987px">
+        <TextView android:textSize="@dimen/font_size32px" android:gravity="center_vertical" android:id="@id/tweb_url" android:background="@drawable/ko_weburl_shape" android:layout_width="fill_parent" android:layout_height="@dimen/download_webview_url_height_54px" android:layout_margin="@dimen/download_webview_url_magin_18px" android:singleLine="true" android:drawableLeft="@drawable/ko_ico_info_ie" />
+        <WebView android:id="@id/wv_web" android:background="@color/ko_transparent" android:layout_width="@dimen/download_webview_layout_width_876px" android:layout_height="@dimen/download_webview_web_height_750px" android:layout_below="@id/tweb_url" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/ko_transparent" android:layout_width="@dimen/download_webview_layout_width_876px" android:layout_height="@dimen/download_webview_web_height_750px" android:layout_below="@id/tweb_url" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/download_webview_loading" android:background="@drawable/ko_logo_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/ko_image_description" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/btweb_lyt_download" android:background="@color/ko_transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/wv_web" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/font_size50px" android:textColor="@color/ko_white" android:id="@id/btweb_download" android:background="@drawable/ko_button_download_selector" android:focusable="true" android:layout_width="@dimen/download_webview_button_width_840px" android:layout_height="@dimen/download_webview_button_height_105px" android:text="@string/ko_auto_download" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/download_webview_tips" android:layout_width="fill_parent" android:layout_height="@dimen/download_webview_tip_height_90px" android:layout_above="@id/btweb_lyt_download">
+            <TextView android:textSize="@dimen/font_size28px" android:textColor="#ff5ed3f7" android:gravity="center" android:background="@drawable/ko_bg_info_bubble_wrap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_default_download" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

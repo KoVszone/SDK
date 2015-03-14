@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ko_battle_main_list_item_root" android:layout_width="@dimen/ko_battle_main_list_item_focus_width_412px" android:layout_height="@dimen/ko_battle_main_list_item_parent_height_570px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom" android:id="@id/ko_battle_main_list_item_iv_focus_bg" android:background="@drawable/ko_focus_down" android:visibility="invisible" android:layout_width="@dimen/ko_battle_main_list_item_focus_width_408px" android:layout_height="@dimen/ko_battle_main_list_item_focus_height_556px" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/ko_battle_main_list_item_content_fl" android:layout_width="wrap_content" android:layout_height="@dimen/ko_battle_main_list_item_focus_height_560px" android:layout_marginLeft="@dimen/ko_battle_main_list_item_focus_margin_20px" android:layout_marginBottom="@dimen/ko_battle_main_list_item_focus_margin_20px">
+        <ImageView android:layout_gravity="bottom" android:id="@id/ko_battle_main_list_item_iv_bg" android:layout_width="@dimen/ko_battle_main_list_item_width_368px" android:layout_height="@dimen/ko_battle_main_list_item_height_516px" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/ko_battle_main_list_item_iv_icon" android:layout_width="@dimen/ko_battle_main_list_item_width_368px" android:layout_height="@dimen/ko_battle_main_list_item_height_516px" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/ko_battle_text_shadow_bg" android:layout_width="@dimen/ko_battle_main_list_item_width_368px" android:layout_height="@dimen/ko_battle_main_text_parent_height_98px">
+            <TextView android:textSize="@dimen/font_size28px" android:textColor="@color/ko_white" android:id="@id/ko_battle_main_list_item_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/KoTextStyle" />
+            <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_yellow" android:ellipsize="marquee" android:id="@id/ko_battle_main_list_item_tv_desc" android:paddingLeft="@dimen/ko_battle_main_margin_10px" android:paddingRight="@dimen/ko_battle_main_margin_10px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/WhiteTextStyle" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom" android:id="@id/ko_battle_main_list_item_iv_name" android:layout_width="@dimen/ko_battle_main_list_item_width_368px" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ko_battle_main_list_item_name_icon_marginbottom_118px" />
+    </FrameLayout>
+</FrameLayout>

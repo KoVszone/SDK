@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="@string/ko_no_focus_tag" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/special_details_icon_iv" android:tag="@string/ko_no_focus_tag" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/ko_app_name" />
+    <cn.vszone.ko.support.v4.views.ViewPager android:gravity="bottom|center" android:id="@id/special_details_vp_container" android:tag="@string/ko_no_focus_tag" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <fragment android:layout_gravity="top|right|center" android:id="@id/main_frame_activity_fmt_device_status" android:tag="device_status_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_frame_margin_top_30px" android:layout_marginRight="@dimen/main_frame_device_status_marginRight_50px" class="cn.vszone.ko.tv.fragments.DeviceStatusBarFragment" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/operation_iv_tips" android:layout_width="@dimen/operation_tips_width_358px" android:layout_height="@dimen/operation_tips_height_58px" android:contentDescription="@string/ko_app_name" />
+    <FrameLayout android:id="@id/main_frame_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_114px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/main_iv_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/ko_app_name" />
+    <ImageView android:id="@id/main_iv_logo" android:layout_width="@dimen/main_start_logo_width_360px" android:layout_height="@dimen/main_start_logo_heigth_460px" android:layout_centerInParent="true" android:contentDescription="@string/ko_app_name" />
+    <TextView android:id="@id/main_tv_version_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_start_version_margin_top_32px" android:text="v2.0.0.1" android:layout_below="@id/main_iv_logo" android:layout_centerHorizontal="true" style="@style/VersionTextStyle" />
+    <ImageView android:id="@id/main_iv_channel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/main_start_channel_margin_right_50px" android:layout_marginBottom="@dimen/main_start_channel_margin_bottom_40px" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/ko_app_name" />
+    <android.opengl.GLSurfaceView android:id="@id/main_glsv_gpu" android:layout_width="0.00999999dip" android:layout_height="0.00999999dip" />
+    <TextView android:textSize="@dimen/font_size38px" android:textColor="@color/ko_white" android:id="@id/main_start_tv_load_status" android:padding="@dimen/main_load_status_padding_20px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_start_version_margin_top_32px" android:layout_below="@id/main_tv_version_name" android:layout_centerHorizontal="true" />
+</RelativeLayout>

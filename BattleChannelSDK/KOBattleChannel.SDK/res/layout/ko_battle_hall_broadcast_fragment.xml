@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/broadcast_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/ko_broadcast_image_view" />
+        <TextView android:textSize="@dimen/font_size30px" android:textColor="@color/ko_orange" android:id="@id/battle_hall_broadcast_category_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WhiteTextStyle" />
+        <TextView android:textSize="@dimen/font_size30px" android:textColor="@color/ko_white_per80" android:ellipsize="marquee" android:gravity="center" android:id="@id/battle_hall_broadcast_content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/WhiteTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/broadcast_image_view2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/ko_broadcast_image_view" />
+        <TextView android:textSize="@dimen/font_size30px" android:textColor="@color/ko_orange" android:id="@id/battle_hall_broadcast_category_tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WhiteTextStyle" />
+        <TextView android:textSize="@dimen/font_size30px" android:textColor="@color/ko_white_per80" android:ellipsize="marquee" android:gravity="center" android:id="@id/battle_hall_broadcast_content_tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/WhiteTextStyle" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/file_browser_item_padding_left_80px" android:paddingTop="@dimen/file_browser_item_padding_top_42px" android:paddingRight="@dimen/file_browser_item_padding_rigth_80px" android:paddingBottom="@dimen/file_browser_item_padding_bottom_42px" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/file_browser_item_icon_height_280px">
+        <ImageView android:layout_gravity="center" android:id="@id/file_browser_item_iv_apk_icon" android:layout_width="@dimen/file_browser_item_apk_icon_width_150px" android:layout_height="@dimen/file_browser_item_apk_icon_width_150px" android:contentDescription="@string/ko_app_name" />
+        <ImageView android:layout_gravity="center" android:id="@id/file_browser_item_iv_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/ko_app_name" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_size36px" android:textStyle="bold" android:textColor="@color/ko_white" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/file_browser_item_tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/file_browser_item_name_margin_top_22px" android:text="@string/ko_app_name" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/KoTextStyle" />
+</LinearLayout>

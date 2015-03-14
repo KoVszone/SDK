@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="@drawable/ko_advanced_setting_of_mapping_btn_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size36px" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="left" />
+    <TextView android:textSize="@dimen/font_size36px" android:gravity="center" android:layout_gravity="right|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="right" />
+</FrameLayout>

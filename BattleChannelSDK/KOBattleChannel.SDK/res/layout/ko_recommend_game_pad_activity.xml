@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size72px" android:textColor="@color/ko_font_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_vertical_40px" android:text="@string/ko_recommend_game_pad" android:layout_centerHorizontal="true" style="@style/WhiteTextStyle" />
+    <fragment android:id="@id/recommend_game_pad_activity_fmt_device_status" android:tag="device_status_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_frame_margin_top_30px" android:layout_marginRight="@dimen/main_frame_margin_right_150px" android:layout_alignParentRight="true" class="cn.vszone.ko.tv.fragments.DeviceStatusBarFragment" />
+    <HorizontalScrollView android:id="@id/recommend_game_pad_h_scroll_view" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/my_game_pad_container_margin_top_234px" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/recommend_game_pad_ll_items_container" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+    <RelativeLayout android:id="@id/container_of_buying_recommentd_game_pad_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</RelativeLayout>

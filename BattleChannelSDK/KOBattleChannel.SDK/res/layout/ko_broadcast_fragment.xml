@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="top|center" android:orientation="horizontal" android:id="@id/broadcast_container" android:background="@color/ko_black_per30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/broadcast_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/ko_broadcast_image_view" />
+    <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_bnet_font_orange" android:id="@id/broadcast_head" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_white_per80" android:ellipsize="marquee" android:id="@id/broadcast_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:maxLength="25" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>

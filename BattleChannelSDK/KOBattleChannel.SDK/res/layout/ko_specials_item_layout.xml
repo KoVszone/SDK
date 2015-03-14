@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/specials_item_padding_left_114px" android:paddingTop="@dimen/specials_item_padding_top_42px" android:paddingRight="@dimen/specials_item_padding_rigth_114px" android:paddingBottom="@dimen/specials_item_padding_bottom_42px" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/special_item_tv_icon" android:layout_width="fill_parent" android:layout_height="@dimen/special_specialItemView_height_330px" android:src="@drawable/ko_item_default_bg_big_shape" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/ko_app_name" />
+    <TextView android:textSize="@dimen/font_size36px" android:textStyle="bold" android:textColor="@color/ko_font_white" android:gravity="center_vertical" android:id="@id/special_tv_name" android:background="@drawable/ko_item_footer_bg" android:paddingLeft="@dimen/special_item_name_padding_left_20px" android:layout_width="fill_parent" android:layout_height="@dimen/special_item_name_height_60px" android:singleLine="true" android:layout_alignLeft="@id/special_item_tv_icon" android:layout_alignBottom="@id/special_item_tv_icon" style="@style/KoTextStyle" />
+</RelativeLayout>

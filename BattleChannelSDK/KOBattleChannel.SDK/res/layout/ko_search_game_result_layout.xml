@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="@dimen/search_result_item_width_662px" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size32px" android:id="@id/search_game_result_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_search_result" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/search_game_result_container" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_result_no_result_margin_top_32px">
+        <LinearLayout android:orientation="vertical" android:id="@id/search_game_no_result_layout" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_search_game_no_result_text_yellow" android:padding="0.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_no_search_result" />
+            <View android:background="@color/ko_stroke_gray" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/search_result_no_result_underline_margin_top_28px" />
+        </LinearLayout>
+        <ListView android:id="@id/search_game_result_listview" android:scrollbars="none" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/ko_search_keybroad_function_button_selector" android:stackFromBottom="false" android:divider="@null" android:dividerHeight="@dimen/search_everyone_search_item_divider_height_16px" android:choiceMode="none" android:smoothScrollbar="true" />
+    </RelativeLayout>
+</LinearLayout>

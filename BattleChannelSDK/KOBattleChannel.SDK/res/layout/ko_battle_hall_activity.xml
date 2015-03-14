@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.vszone.ko.tv.views.PartOfPictureImageView android:id="@id/battle_hall_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.support.v4.views.ViewPager android:layout_gravity="center_horizontal" android:id="@id/battle_hall_viewpager" android:layout_width="fill_parent" android:layout_height="@dimen/battle_hall_viewpager_height_978px" />
+    <cn.vszone.ko.tv.views.CirclePageIndicator android:id="@id/battle_hall_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_circleindicator_margin_top_10px" android:layout_below="@id/battle_hall_viewpager" android:layout_centerHorizontal="true" app:fillColor="#fff8ad1e" app:pageColor="@color/ko_white_per30" app:center_radius="@dimen/battle_hall_circleindicator_radius_9px" app:strokeColor="#4c000000" app:view_radius="@dimen/battle_hall_circleindicator_radius_9px" />
+    <fragment android:id="@id/main_frame_activity_fmt_device_status" android:tag="device_status_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_frame_margin_top_30px" android:layout_marginRight="@dimen/main_frame_device_status_marginRight_50px" android:layout_alignParentTop="true" android:layout_alignParentRight="true" class="cn.vszone.ko.tv.fragments.DeviceStatusBarFragment" />
+    <FrameLayout android:id="@id/battle_hall_broadcast_layout" android:background="@color/ko_black_per30" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/battle_hall_broadcast_region_height_60px" android:layout_alignParentBottom="true" />
+</RelativeLayout>
