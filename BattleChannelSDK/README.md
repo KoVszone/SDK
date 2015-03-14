@@ -219,7 +219,7 @@ SDK接入步骤：
     @Override
     public void onLowMemory() {
         super.onLowMemory();
-        KOChannelSDK.getInstance().onApplicationonLowMemory();
+        KOChannelSDK.getInstance().onApplicationLowMemory();
     }
 ```
 ####5. 需要启动KO对战频道的地方（如Button 的onClick)添加代码：
@@ -232,6 +232,12 @@ SDK接入步骤：
 启动成功后将出现如下界面：
 
 ![Alt text](./battle_home.png)
+
+####6. 在应用退出时，需要调用以下代码：
+```java
+KOChannelSDK.getInstance().onApplicationExit()
+```
+
 
 -----
 ### 示例DEMO
