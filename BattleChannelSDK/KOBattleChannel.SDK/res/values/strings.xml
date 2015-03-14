@@ -479,4 +479,5 @@ We recommend that you connect an external storage device."</string>
     <string name="ko_battle_load_res_verify">数据准备中…%1$d%%</string>
     <string name="ko_battle_in_login">登录中…</string>
     <string name="ko_battle_game_not_online">游戏还未上线</string>
+    <string name="ko_battle_not_online_game_tip">敬请期待</string>
 </resources>

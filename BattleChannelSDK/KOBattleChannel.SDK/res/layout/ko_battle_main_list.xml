@@ -28,4 +28,8 @@
             <TextView android:layout_width="0.0dip" android:layout_height="@dimen/ko_battle_main_scrollview_bottom_margin_90px" />
         </LinearLayout>
     </cn.vszone.ko.tv.battle.channel.view.MainBattleScrollView>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_frame_margin_top_30px" android:layout_marginRight="@dimen/ko_battle_main_margin_60px" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/ko_battle_main_righttop_logo_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ko_vs_logo_right_up" />
+        <fragment android:id="@id/main_frame_activity_fmt_device_status" android:tag="device_status_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ko_battle_main_margin_20px" class="cn.vszone.ko.tv.fragments.DeviceStatusBarFragment" />
+    </LinearLayout>
 </RelativeLayout>

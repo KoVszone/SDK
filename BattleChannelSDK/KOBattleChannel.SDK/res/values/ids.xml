@@ -122,6 +122,7 @@
     <item type="id" name="ko_battle_bottom_setting_submenu_ll">false</item>
     <item type="id" name="ko_battle_main_setting_sub_btn1">false</item>
     <item type="id" name="ko_battle_main_setting_sub_btn2">false</item>
+    <item type="id" name="ko_battle_main_righttop_logo_iv">false</item>
     <item type="id" name="ko_battle_main_list_item_root">false</item>
     <item type="id" name="ko_battle_main_list_item_iv_focus_bg">false</item>
     <item type="id" name="ko_battle_main_list_item_content_fl">false</item>
@@ -129,6 +130,8 @@
     <item type="id" name="ko_battle_main_list_item_iv_icon">false</item>
     <item type="id" name="ko_battle_main_list_item_tv_name">false</item>
     <item type="id" name="ko_battle_main_list_item_tv_desc">false</item>
+    <item type="id" name="ko_battle_main_list_item_tip_lyt">false</item>
+    <item type="id" name="ko_battle_main_list_item_tip_title">false</item>
     <item type="id" name="ko_battle_main_list_item_iv_name">false</item>
     <item type="id" name="ko_battle_main_list_item_codeview">false</item>
     <item type="id" name="main_glsv_gpu">false</item>

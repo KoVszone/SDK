@@ -10,5 +10,6 @@
             <cn.vszone.ko.tv.views.FontEnlargeTextView android:textSize="@dimen/font_size50px" android:textColor="@drawable/ko_prompt_dialog_bt_textcolor_selector" android:gravity="center" android:id="@id/my_account_fetv_modif_avatar" android:background="@drawable/ko_menu_item_selector" android:focusable="true" android:layout_width="@dimen/my_account_bt_modif_avatar_width_352px" android:layout_height="@dimen/my_account_bt_modif_avatar_height_100px" android:text="@string/ko_my_account_modif_nick_avatar" android:layout_alignParentBottom="true" />
         </RelativeLayout>
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/my_account_battle_info_lyt" android:background="@color/ko_black_per30" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/my_account_battle_info_lyt_margin_top_80px" />
+    <ImageView android:background="@color/ko_white_per10" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_item_spit_width_1px" android:layout_marginTop="@dimen/my_account_battle_info_lyt_margin_top_80px" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/my_account_battle_info_lyt" android:background="@color/ko_black_per10" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </LinearLayout>

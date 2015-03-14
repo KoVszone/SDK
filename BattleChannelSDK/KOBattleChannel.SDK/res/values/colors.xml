@@ -82,6 +82,7 @@
     <color name="ko_font_orange_alpha60">#9cffb534</color>
     <color name="ko_font_orange_alpha80">#cdffb534</color>
     <color name="ko_pad_button_green">#ffaaff7b</color>
+    <color name="ko_black_per10">#19000000</color>
     <color name="ko_green">#ffa3cd22</color>
     <color name="ko_brightgreen">#ff83bd24</color>
     <color name="ko_brightgreen_alpha70">#b2a2cb26</color>
@@ -131,4 +132,5 @@
     <color name="default_underline_indicator_selected_color">#ff33b5e5</color>
     <color name="ko_qr_code_text_color">#99ffffff</color>
     <color name="ko_channel_load_res_bg">#e6000000</color>
+    <color name="ko_ballte_title_bg">#331f214f</color>
 </resources>
