@@ -42,6 +42,7 @@
     <item type="id" name="battle_hall_main_button_container">false</item>
     <item type="id" name="battle_hall_main_download_button">false</item>
     <item type="id" name="battle_hall_main_download_ico_iv">false</item>
+    <item type="id" name="battle_hall_main_download_title_iv">false</item>
     <item type="id" name="battle_hall_main_downloading_button">false</item>
     <item type="id" name="battle_hall_main_progressbar">false</item>
     <item type="id" name="battle_hall_main_downloading_tv">false</item>

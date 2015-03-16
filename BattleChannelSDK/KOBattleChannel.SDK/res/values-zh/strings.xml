@@ -362,6 +362,7 @@
     <string name="ko_wins_rate">胜率：%1$s</string>
     <string name="ko_wins_rate_battle">胜率：%1$d</string>
     <string name="ko_download_game">下载游戏</string>
+    <string name="ko_ready_game">游戏准备中</string>
     <string name="ko_today_ranking">今日排行：%1$s</string>
     <string name="ko_countdown_timer_tips">距下次开放对战还有 ：</string>
     <string name="ko_open_time_in_daily">- 每天%1$d点-%2$d点开放 -</string>

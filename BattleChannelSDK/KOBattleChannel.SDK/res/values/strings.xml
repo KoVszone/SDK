@@ -363,6 +363,7 @@ We recommend that you connect an external storage device."</string>
     <string name="ko_wins_rate">Win rate:%1$s</string>
     <string name="ko_wins_rate_battle">Win rate:%1$d</string>
     <string name="ko_download_game">Download</string>
+    <string name="ko_ready_game">Game in preparation</string>
     <string name="ko_today_ranking">TOP Today:%1$s</string>
     <string name="ko_countdown_timer_tips">Next open time in battle :</string>
     <string name="ko_open_time_in_daily">- Opening hours %1$d-%2$d -</string>
