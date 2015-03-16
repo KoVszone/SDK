@@ -61,13 +61,13 @@
 #####*applicatin 节点中添加meta**
 ``` xml
         <meta-data
-            android:name="KO_APPKEY"
+            android:name="KO_APP_KEY"
             android:value="xxxxxxxxxx" />
         <meta-data
-            android:name="KO_CHANNEL"
+            android:name="KO_APP_ID"
             android:value="xxxxxxxxx" />
 ```
-其中 **KO_CHANNEL**为合作方的名称（英文), **KO_APPKEY** 为应用标识，该值由第三方开发者工程的包名和签名计算，具体计算方法请联系[help@vszone.cn](luoyi@vszone.cn)
+其中 **KO_APP_ID**为合作方的名称（英文), **KO_APP_KEY** 为应用标识，该值由第三方开发者工程的包名和签名计算，具体计算方法请联系[help@vszone.cn](luoyi@vszone.cn)
 
 #####*applicatin 节点中添加activity, service 等**
 
