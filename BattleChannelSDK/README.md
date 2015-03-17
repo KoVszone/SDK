@@ -252,7 +252,7 @@ KOChannelSDK.getInstance().onApplicationExit()
 ### 示例DEMO
 下载地址 https://github.com/KoVszone/BattleChannelSDK/KOBattleChannel.Demo
 ``` git
-git clone https://github.com/KoVszone/BattleChannelSDK/KOBattleChannel.Demo
+git clone https://github.com/KoVszone/SDK.git
 
 ```
 
