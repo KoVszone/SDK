@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ko_battle_bottom_menu_item_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/font_size32px" android:id="@id/ko_battle_bottom_item_tv_top_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/KoTextStyle" />
-    <FrameLayout android:id="@id/ko_battle_bottom_item_bg" android:background="@drawable/ko_battle_bottom_menu_bg_shape" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <ImageView android:id="@id/ko_battle_bottom_item_iv_icon" android:layout_width="@dimen/ko_battle_main_bottom_menu_width_54px" android:layout_height="@dimen/ko_battle_main_bottom_menu_width_54px" />
+    <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_white_per60" android:id="@id/ko_battle_bottom_item_tv_top_name" android:layout_width="wrap_content" android:layout_height="@dimen/ko_battle_main_bottom_menu_text_height_36px" style="@style/KoTextStyle" />
+    <FrameLayout android:id="@id/ko_battle_bottom_item_bg" android:background="@drawable/ko_battle_bottom_menu_bg_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width5px" android:layout_marginBottom="@dimen/stroke_width5px">
+        <ImageView android:id="@id/ko_battle_bottom_item_iv_icon" android:layout_width="@dimen/ko_battle_main_bottom_menu_width_54px" android:layout_height="@dimen/ko_battle_main_bottom_menu_width_54px" android:alpha="60.0" />
     </FrameLayout>
-    <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_white" android:id="@id/ko_battle_bottom_item_tv_bottom_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/KoTextStyle" />
+    <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_white_per60" android:id="@id/ko_battle_bottom_item_tv_bottom_name" android:layout_width="wrap_content" android:layout_height="@dimen/ko_battle_main_bottom_menu_text_height_36px" style="@style/KoTextStyle" />
 </LinearLayout>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item type="id" name="qh">false</item>
-    <item type="id" name="framelayout_content">false</item>
     <item type="id" name="battle_hall_bg">false</item>
     <item type="id" name="battle_hall_viewpager">false</item>
     <item type="id" name="battle_hall_indicator">false</item>
@@ -120,6 +118,8 @@
     <item type="id" name="ko_battle_horizontalScrollView">false</item>
     <item type="id" name="ko_battle_item_Group">false</item>
     <item type="id" name="ko_battle_bottom_menu_group">false</item>
+    <item type="id" name="ko_battle_bottom_menu_left_line">false</item>
+    <item type="id" name="ko_battle_bottom_menu_right_line">false</item>
     <item type="id" name="ko_battle_bottom_setting_submenu_ll">false</item>
     <item type="id" name="ko_battle_main_setting_sub_btn1">false</item>
     <item type="id" name="ko_battle_main_setting_sub_btn2">false</item>

@@ -8,6 +8,7 @@
     <string name="ko_network_default_3G_name">3G</string>
     <string name="ko_network_default_4G_name">4G</string>
     <string name="ko_network_default_pppoe">拨号网络</string>
+      <string name="ko_ga_trackingId">UA-36039055-2</string>
     <string name="ko_network_not_available">网络不可用!</string>
     <string name="ko_zip_fail_exception_caught">压缩过程中出错了.</string>
     <string name="ko_zip_fail_file_can_not_read">无法读取源文件，压缩停止!</string>
@@ -19,6 +20,7 @@
     <string name="ko_network_req_failed">网络请求失败!</string>
     <string name="ko_network_req_time_out">网络请求超时，请稍后重试!</string>
     <string name="ko_network_resp_error_region_country_unavailable">该服务在您所在的国家地区不可用!</string>
+    <string name="ko_server_busy">服务器繁忙，获取服务器数据失败!(errorcode=%1$d)</string>
     <string name="ko_no_focus_tag">KO_NO_FOCUS</string>
     <string name="ko_task_status_waiting">队列中</string>
     <string name="ko_task_status_running">正在下载</string>
@@ -482,4 +484,5 @@
     <string name="ko_battle_in_login">登录中…</string>
     <string name="ko_battle_game_not_online">游戏还未上线</string>
     <string name="ko_battle_not_online_game_tip">敬请期待</string>
+    <string name="ko_verify_sign_fail">KO_APP_KEY 是无效的</string>
 </resources>

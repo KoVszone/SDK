@@ -105,12 +105,12 @@
     <color name="ko_search_game_no_result_text_yellow">#ffffb534</color>
     <color name="ko_vpi__background_holo_dark">#ff000000</color>
     <color name="ko_vpi__background_holo_light">#fff3f3f3</color>
-    <color name="ko_vpi__bright_foreground_holo_dark">@color/ko_vpi__background_holo_light</color>
-    <color name="ko_vpi__bright_foreground_holo_light">@color/ko_vpi__background_holo_dark</color>
+    <item type="color" name="ko_vpi__bright_foreground_holo_dark">@color/ko_vpi__background_holo_light</item>
+    <item type="color" name="ko_vpi__bright_foreground_holo_light">@color/ko_vpi__background_holo_dark</item>
     <color name="ko_vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
     <color name="ko_vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
-    <color name="ko_vpi__bright_foreground_inverse_holo_dark">@color/ko_vpi__bright_foreground_holo_light</color>
-    <color name="ko_vpi__bright_foreground_inverse_holo_light">@color/ko_vpi__bright_foreground_holo_dark</color>
+    <item type="color" name="ko_vpi__bright_foreground_inverse_holo_dark">@color/ko_vpi__bright_foreground_holo_light</item>
+    <item type="color" name="ko_vpi__bright_foreground_inverse_holo_light">@color/ko_vpi__bright_foreground_holo_dark</item>
     <color name="ko_bnet_font_orange">#fff8ae27</color>
     <color name="ko_bnet_font_blue">#ff3bb3f0</color>
     <color name="ko_bnet_result_font_p1">#fff1a318</color>

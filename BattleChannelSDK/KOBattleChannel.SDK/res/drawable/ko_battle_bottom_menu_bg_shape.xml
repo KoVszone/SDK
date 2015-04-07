@@ -3,5 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <corners android:radius="@dimen/ko_battle_main_bottom_menu_bg_radius_60px" />
     <padding android:left="20.0dip" android:top="20.0dip" android:right="20.0dip" android:bottom="20.0dip" />
-    <solid android:color="#1affffff" />
+    <stroke android:width="@dimen/stroke_width2px" android:color="@color/ko_white_per20" />
+    <solid android:color="@color/ko_white_per10" />
 </shape>

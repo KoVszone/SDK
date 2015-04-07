@@ -2,7 +2,7 @@
 <RelativeLayout android:padding="@dimen/ko_battle_main_bottom_submenu_focus_padding_4px" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ko_battle_main_setting_sub_root" android:background="@drawable/ko_battle_bottom_sub_menu_mine_bg_shape" android:layout_width="fill_parent" android:layout_height="@dimen/ko_battle_main_bottom_submenu_height_180px" android:layout_centerInParent="true">
-        <ImageView android:id="@id/ko_battle_main_setting_sub_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:textSize="@dimen/font_size44px" android:textColor="@color/ko_white" android:id="@id/ko_battle_main_setting_sub_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/KoTextStyle" />
+        <ImageView android:id="@id/ko_battle_main_setting_sub_icon" android:layout_width="@dimen/ko_battle_main_bottom_submenu_icon_width_130px" android:layout_height="@dimen/ko_battle_main_bottom_submenu_icon_height_100px" />
+        <TextView android:textSize="@dimen/font_size42px" android:textColor="@color/ko_white" android:id="@id/ko_battle_main_setting_sub_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ko_battle_main_margin_20px" android:singleLine="true" style="@style/KoTextStyle" />
     </LinearLayout>
 </RelativeLayout>

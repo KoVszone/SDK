@@ -1015,10 +1015,13 @@
     <dimen name="ko_battle_main_bottom_menu_margin_30px">20.0dip</dimen>
     <dimen name="ko_battle_main_bottom_menu_bg_radius_45px">30.0dip</dimen>
     <dimen name="ko_battle_main_bottom_menu_bg_radius_60px">40.0dip</dimen>
+    <dimen name="ko_battle_main_bottom_menu_text_height_36px">24.0dip</dimen>
     <dimen name="ko_battle_main_bottom_menu_in_height_245px">163.32999dip</dimen>
     <dimen name="ko_battle_main_bottom_submenu_width_750px">666.65625dip</dimen>
     <dimen name="ko_battle_main_bottom_submenu_height_180px">120.0dip</dimen>
     <dimen name="ko_battle_main_bottom_submenu_focus_padding_4px">2.6599731dip</dimen>
+    <dimen name="ko_battle_main_bottom_submenu_icon_width_130px">86.66dip</dimen>
+    <dimen name="ko_battle_main_bottom_submenu_icon_height_100px">66.66dip</dimen>
     <dimen name="ko_qr_code_width_160px">106.66dip</dimen>
     <dimen name="ko_qr_code_margin_20px">13.329987dip</dimen>
     <dimen name="ko_qr_code_margin_30px">20.0dip</dimen>

@@ -19,6 +19,7 @@
     <string name="ko_network_req_failed">Network request failed!</string>
     <string name="ko_network_req_time_out">Request network time out, try again later!</string>
     <string name="ko_network_resp_error_region_country_unavailable">Your country or region is unavailable for requesting these information.</string>
+    <string name="ko_server_busy">Server is busy,access to server data failed!(errorcode=%1$d)</string>
     <string name="ko_no_focus_tag">KO_NO_FOCUS</string>
     <string name="ko_task_status_waiting">Waiting</string>
     <string name="ko_task_status_running">Downloading</string>
@@ -481,4 +482,5 @@ We recommend that you connect an external storage device."</string>
     <string name="ko_battle_in_login">登录中…</string>
     <string name="ko_battle_game_not_online">游戏还未上线</string>
     <string name="ko_battle_not_online_game_tip">敬请期待</string>
+    <string name="ko_verify_sign_fail">KO_APP_KEY is invalid</string>
 </resources>

@@ -36,7 +36,7 @@
     </string-array>
     <string-array name="ko_exit_game_options">
         <item>Resumn</item>
-        <item>Save &amp; Quit</item>
+        <item>Save &amp;amp; Quit</item>
         <item>Quit</item>
     </string-array>
     <string-array name="ko_scaling_mode_entries">

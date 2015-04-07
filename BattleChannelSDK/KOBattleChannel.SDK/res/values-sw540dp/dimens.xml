@@ -1002,10 +1002,13 @@
     <dimen name="ko_battle_main_bottom_menu_margin_30px">15.0dip</dimen>
     <dimen name="ko_battle_main_bottom_menu_bg_radius_45px">22.5dip</dimen>
     <dimen name="ko_battle_main_bottom_menu_bg_radius_60px">30.0dip</dimen>
+    <dimen name="ko_battle_main_bottom_menu_text_height_36px">18.0dip</dimen>
     <dimen name="ko_battle_main_bottom_menu_in_height_245px">122.5dip</dimen>
     <dimen name="ko_battle_main_bottom_submenu_width_750px">500.0dip</dimen>
     <dimen name="ko_battle_main_bottom_submenu_height_180px">90.0dip</dimen>
     <dimen name="ko_battle_main_bottom_submenu_focus_padding_4px">2.0dip</dimen>
+    <dimen name="ko_battle_main_bottom_submenu_icon_width_130px">65.0dip</dimen>
+    <dimen name="ko_battle_main_bottom_submenu_icon_height_100px">50.0dip</dimen>
     <dimen name="ko_qr_code_width_160px">80.0dip</dimen>
     <dimen name="ko_qr_code_margin_20px">10.0dip</dimen>
     <dimen name="ko_qr_code_margin_30px">15.0dip</dimen>
@@ -1028,4 +1031,6 @@
     <dimen name="ko_battle_my_account_list_item_vertical_space_24px">12.0dip</dimen>
     <dimen name="ko_battle_channel_loaing_button_width_186px">93.0dip</dimen>
     <dimen name="ko_battle_channel_loaing_button_height_48px">24.0dip</dimen>
+    <dimen name="emu_menu_left_tips_width_512px">256.0dip</dimen>
+    <dimen name="emu_menu_left_tips_height_166px">83.0dip</dimen>
 </resources>
