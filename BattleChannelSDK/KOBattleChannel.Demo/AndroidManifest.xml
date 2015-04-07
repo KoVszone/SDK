@@ -71,8 +71,9 @@
             android:name="UMENG_CHANNEL"
             android:value="Website" />
         <meta-data
-            android:name="KO_APPKEY"
-            android:value="8f58a2504664c9f444479035" />
+            android:name="KO_APP_KEY"
+            android:value="dE0oRhauOX75w0bEXvb29htNM6QQ6IjT91OO3uiK4/sIofwbMoVIFR4x+7I4q/Xxt+DBrJcAIV/t
+2JYs8Yg+5/eRJ511PNRd" />
         <meta-data
             android:name="KO_CHANNEL"
             android:value="KO_DEMO" />
