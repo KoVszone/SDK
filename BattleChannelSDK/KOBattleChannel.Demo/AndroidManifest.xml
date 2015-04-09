@@ -215,6 +215,16 @@
         <service android:name="cn.vszone.ko.bnet.core.BattleNetService" />
         <service android:name="cn.vszone.ko.tv.services.KoGameService" />
         <service android:name="cn.vszone.ko.gp.GamePadService" />
+		<service
+		    android:name="cn.vszone.gamepad.virtual.VirtualGamdPadService"
+		    android:enabled="true"
+		    android:exported="true" >
+		    <intent-filter>
+		        <action android:name="VirtualGamdPadService" />
+	
+		        <category android:name="android.intent.category.DEFAULT" />
+		    </intent-filter>
+		</service>
 
         <receiver android:name="cn.vszone.ko.tv.receivers.VsNetReceiver" >
             <intent-filter>
