@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/emu_fba_game_sides_bar_wb" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/emu_fba_sides_bar_height_722px" />
+    <LinearLayout android:orientation="vertical" android:background="@color/ko_emu_fba_side_bar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:background="@drawable/ko_vs_pic_fighte_cue_left" android:layout_width="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_height="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_marginTop="@dimen/emu_fba_sides_bar_img_margin_top_20px" />
+                <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_white_per90" android:gravity="center" android:id="@id/emu_fba_btn_a_fuc_tv" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emu_fba_sides_bar_margin_top_15px" android:text="@string/ko_btn_a_tkw_fuc" android:lineSpacingExtra="@dimen/emu_fba_sides_bar_margin_top_15px" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:background="@drawable/ko_vs_pic_fighte_cue_down" android:layout_width="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_height="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_marginTop="@dimen/emu_fba_sides_bar_img_margin_top_20px" />
+                <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_white_per90" android:gravity="center" android:id="@id/emu_fba_btn_b_fuc_tv" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emu_fba_sides_bar_margin_top_15px" android:text="@string/ko_btn_b_tkw_fuc" android:lineSpacingExtra="@dimen/emu_fba_sides_bar_margin_top_15px" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:background="@drawable/ko_vs_pic_fighte_cue_up" android:layout_width="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_height="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_marginTop="@dimen/emu_fba_sides_bar_img_margin_top_20px" />
+                <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_white_per90" android:gravity="center" android:id="@id/emu_fba_btn_c_fuc_tv" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emu_fba_sides_bar_margin_top_15px" android:text="@string/ko_btn_c_tkw_fuc" android:lineSpacingExtra="@dimen/emu_fba_sides_bar_margin_top_15px" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <View android:background="@drawable/ko_vs_pic_fighte_cue_right" android:layout_width="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_height="@dimen/emu_fba_sides_bar_img_size_66px" android:layout_marginTop="@dimen/emu_fba_sides_bar_img_margin_top_20px" />
+                <TextView android:textSize="@dimen/font_size24px" android:textColor="@color/ko_white_per90" android:gravity="center" android:id="@id/emu_fba_btn_d_fuc_tv" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emu_fba_sides_bar_margin_top_15px" android:text="@string/ko_btn_d_tkw_fuc" android:lineSpacingExtra="@dimen/emu_fba_sides_bar_margin_top_15px" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/font_size28px" android:textColor="@color/ko_orange" android:gravity="center" android:background="@drawable/ko_emu_fba_title_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/emu_fba_sides_bar_height_82px" android:text="@string/ko_press_start_r1_or_select_to_fullscreen" />
+    </LinearLayout>
+</LinearLayout>

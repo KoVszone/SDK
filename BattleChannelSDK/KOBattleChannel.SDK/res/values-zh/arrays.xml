@@ -801,14 +801,14 @@
         <item>cn.vszone.tv.gamebox</item>
     </string-array>
     <string-array name="ko_every_one_serach">
-        <item>12|King Of Fighters|2</item>
-        <item>11|Metal Slug|2</item>
-        <item>10|Dragon Ball|2</item>
-        <item>9|Castlevania|2</item>
-        <item>8|Pro Evolution Soccer|2</item>
-        <item>7|Bomberman|2</item>
-        <item>6|Dragon|2</item>
-        <item>5|moerumahjong|2</item>
+        <item>12|拳皇|2</item>
+        <item>11|合金弹头|2</item>
+        <item>10|龙珠|2</item>
+        <item>9|恶魔城|2</item>
+        <item>8|实况足球|2</item>
+        <item>7|炸弹人|2</item>
+        <item>6|龙|2</item>
+        <item>5|萌麻将|2</item>
     </string-array>
     <string-array name="ko_app_filter_list">
         <item>com.android.providers.downloads.ui</item>
@@ -904,5 +904,56 @@
         <item>.zip|application/zip</item>
         <item>.apk|application/vnd.android.package-archive</item>
         <item>|*/*</item>
+    </string-array>
+    <string-array name="ko_fighter97_info_list">
+        <item>0|草雉京|ko_pic_moves_avatar_1.jpg|KYOKUSANAGI.html</item>
+        <item>1|二阶堂红丸|ko_pic_moves_avatar_2.jpg|BENIMARUNIKAIDO.html</item>
+        <item>2|大门五郎|ko_pic_moves_avatar_3.jpg|GORODAIMON.html</item>
+        <item>3|特瑞|ko_pic_moves_avatar_4.jpg|TERRYBOGARD.html</item>
+        <item>4|安迪|ko_pic_moves_avatar_5.jpg|ANDYBOGARD.html</item>
+        <item>5|东丈|ko_pic_moves_avatar_6.jpg|JOEHIGASHI.html</item>
+        <item>6|坂崎亮|ko_pic_moves_avatar_7.jpg|RYOSAKAZAKI.html</item>
+        <item>7|罗伯特|ko_pic_moves_avatar_8.jpg|ROBERTGARCIA.html</item>
+        <item>8|坂崎由莉|ko_pic_moves_avatar_9.jpg|YURISAKAZAKI.html</item>
+        <item>9|莉安娜|ko_pic_moves_avatar_10.jpg|LEONA.html</item>
+        <item>10|拉尔夫|ko_pic_moves_avatar_11.jpg|RALF.html</item>
+        <item>11|克拉克|ko_pic_moves_avatar_12.jpg|CLARK.html</item>
+        <item>12|麻宫雅典娜|ko_pic_moves_avatar_13.jpg|ATHENAASAMIYA.html</item>
+        <item>13|椎拳崇|ko_pic_moves_avatar_14.jpg|SIEKENSOU.html</item>
+        <item>14|镇元斋|ko_pic_moves_avatar_15.jpg|CHINGENTSAI.html</item>
+        <item>15|神乐千鹤|ko_pic_moves_avatar_16.jpg|CHIZURUKAGURA.html</item>
+        <item>16|不知火舞|ko_pic_moves_avatar_17.jpg|MAISHIRANUI.html</item>
+        <item>17|京|ko_pic_moves_avatar_18.jpg|KING.html</item>
+        <item>18|金甲唤|ko_pic_moves_avatar_19.jpg|KIMKAPHWAN.html</item>
+        <item>19|陈国汉|ko_pic_moves_avatar_20.jpg|CHANGKOEHAN.html</item>
+        <item>20|蔡宝健|ko_pic_moves_avatar_21.jpg|CHOIBOUNGE.html</item>
+        <item>21|七枷社|ko_pic_moves_avatar_22.jpg|YASHIRONANAKASE.html</item>
+        <item>22|夏尔米|ko_pic_moves_avatar_23.jpg|SHERMIE.html</item>
+        <item>23|克丽斯|ko_pic_moves_avatar_24.jpg|CHRIS.html</item>
+        <item>24|山崎龙二|ko_pic_moves_avatar_25.jpg|RYUJIYAMAZAKI.html</item>
+        <item>25|布鲁玛莉|ko_pic_moves_avatar_26.jpg|BLUEMARY.html</item>
+        <item>26|比利|ko_pic_moves_avatar_27.jpg|BILLYKANE.html</item>
+        <item>27|八神庵|ko_pic_moves_avatar_28.jpg|IORIYAGAMI.html</item>
+        <item>28|矢吹真吾|ko_pic_moves_avatar_29.jpg|SHINGOYABUKI.html</item>
+        <item>29|94草雉京|ko_pic_moves_avatar_30.jpg|94KYOKUSANAGI.html</item>
+        <item>30|大地七枷社|ko_pic_moves_avatar_31.jpg|DDQJS(YASHIRONANAKASE).html</item>
+        <item>31|雷光夏尔米|ko_pic_moves_avatar_32.jpg|LGXEM(SHERMIE).html</item>
+        <item>32|火炎克丽斯|ko_pic_moves_avatar_33.jpg|HYKLS(CHRIS).html</item>
+        <item>33|暴走八神庵|ko_pic_moves_avatar_34.jpg|BZBSA(IORIYAGAMI).html</item>
+        <item>34|暴走莉安娜|ko_pic_moves_avatar_35.jpg|BZLAN(LEONA).html</item>
+    </string-array>
+    <string-array name="ko_fighter_sanguo_info_list">
+        <item>0|张飞|ko_pic_moves_avatar_zf.jpg|ZF.html</item>
+        <item>1|关羽|ko_pic_moves_avatar_gy.jpg|GY.html</item>
+        <item>2|魔法张飞|ko_pic_moves_avatar_mfzf.jpg|MFZF.html</item>
+        <item>3|马超|ko_pic_moves_avatar_mc.jpg|MC.html</item>
+        <item>4|陆逊|ko_pic_moves_avatar_lx.jpg|LX.html</item>
+        <item>5|赵云|ko_pic_moves_avatar_zy.jpg|ZY.html</item>
+        <item>6|张辽|ko_pic_moves_avatar_zl.jpg|ZL.html</item>
+        <item>7|诸葛亮|ko_pic_moves_avatar_zgl.jpg|ZGL.html</item>
+        <item>8|貂蝉|ko_pic_moves_avatar_dc.jpg|DC.html</item>
+        <item>9|黄忠|ko_pic_moves_avatar_hz.jpg|HZ.html</item>
+        <item>10|许褚|ko_pic_moves_avatar_xz.jpg|XZ.html</item>
+        <item>11|白甲黄忠|ko_pic_moves_avatar_bjhz.jpg|BJHZ.html</item>
     </string-array>
 </resources>

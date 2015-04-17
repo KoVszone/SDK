@@ -41,7 +41,6 @@
     <string name="ko_http_downloadengine_error_http_url_noresponse">URL no response</string>
     <string name="ko_app_name">KOBattleChannel</string>
     <string name="ko_bnet_msg_waiting_tired">Be quick! I am so bored…</string>
-    <string name="ko_ga_trackingId">UA-36039055-2</string>
     <string name="ko_hello">Hello World, PpssppActivity!</string>
     <string name="ko_shortcut_name">PPSSPP game</string>
     <string name="ko_emu_game_is_unavailable">The game file is unavailable</string>
@@ -87,6 +86,7 @@
     <string name="ko_windows_model">Windows model</string>
     <string name="ko_windows_model_sumary">Play a game without sunscreen</string>
     <string name="ko_required_libs_are_missed">Miss required components to run emulator!</string>
+    <string name="ko_config_activity_default_bg_file_name">home_default_bg.jpg</string>
     <string name="ko_imageview">imageview</string>
     <string name="ko_gamepad_connected">Game Pad %1$s is connected.</string>
     <string name="ko_gamepad_quited">Game Pad %1$s is disconnected.</string>
@@ -142,6 +142,14 @@ add shortcut to “My Games“!"</string>
     <string name="ko_data_loading">Loading data,please wait…</string>
     <string name="ko_net_not_good_data_load_fail">Network error，fail to load data…</string>
     <string name="ko_no_net_data_load_fail">Network error，fail to load data…</string>
+    <string name="ko_gamepad_is_bnet_playing">please exit the battle before switching game</string>
+    <string name="ko_loading_data_failed">Loading data failed！</string>
+    <string name="ko_loading_libs_btn_tips">Loading support data</string>
+    <string name="ko_loading_libs_act_tip1">Support data loading，</string>
+    <string name="ko_loading_libs_act_tip2">Please Waiting…</string>
+    <string name="ko_loading_libs_loading">Back (Background Loading)</string>
+    <string name="ko_loading_libs_act_fail_tip">Download failed，please try again</string>
+    <string name="ko_loading_libs_retry">Retry</string>
     <string name="ko_gamepad_game">Need Gamepad</string>
     <string name="ko_file_size">Size:%1$s</string>
     <string name="ko_no_memery">Available space of storage is not enough, please clean up the storage.</string>
@@ -194,11 +202,13 @@ add shortcut to “My Games“!"</string>
     <string name="ko_switch_to_lanscape_mode">Please switch your TV Remote to lanscape mode!</string>
     <string name="ko_map_wrong_game_pad">maping with wrong Gamepad?</string>
     <string name="ko_continue_game">Continue</string>
+    <string name="ko_continue_novice_teaching">Continue</string>
     <string name="ko_keymapping">Key-Mapping</string>
     <string name="ko_save_archive">Save Archive</string>
     <string name="ko_read_archive">Load Save</string>
     <string name="ko_advanced_setting">Advanced Setting</string>
     <string name="ko_quit_game">Quit</string>
+    <string name="ko_quit_novice_teaching">Quit</string>
     <string name="ko_image">image</string>
     <string name="ko_slot_nth">Slot %1$d</string>
     <string name="ko_invalid_path">Invalid file path!</string>
@@ -259,7 +269,7 @@ We recommend that you connect an external storage device."</string>
     <string name="ko_setting_about_us_qq_group">Fans Group : 320086294 (QQ)</string>
     <string name="ko_setting_about_us_official_website">Official Website : tv.vszone.cn</string>
     <string name="ko_setting_about_us_weixin">WeChat : KOgames (Scan QR Code on right)</string>
-    <string name="ko_setting_copyright_content">KO GameBox is a game platform on Android TV, We did a lot of work to improve UI, Performance and Play experience for TV. It searchs emulator games from the internet, then users can download them by themself. KO GameBox don’t provide any unauthorized game files in any form. If these games encroach on the legal rights of you，please send mail (tv_service@vszone.cn) to contact us!</string>
+    <string name="ko_setting_copyright_content">KO GameBox is a game platform on Android TV, We did a lot of work to improve UI, Performance and Play experience for TV. It searchs emulator games from the internet, then users can download them by themself. KO GameBox don’t provide any unauthorized game files in any form. If these games encroach on the legal rights of you，please send mail (service@kobox.tv) to contact us!</string>
     <string name="ko_setting_feedback_thanks">Thank You for your support!</string>
     <string name="ko_setting_feedback_warning">Please leave your comments, thanks！</string>
     <string name="ko_setting_update_new_version">Find New Version</string>
@@ -362,6 +372,7 @@ We recommend that you connect an external storage device."</string>
     <string name="ko_single_game">Single</string>
     <string name="ko_find_more_daily_top20">Today TOP20</string>
     <string name="ko_wins_rate">Win rate:%1$s</string>
+    <string name="ko_wins_score">Score:%1$s</string>
     <string name="ko_wins_rate_battle">Win rate:%1$d</string>
     <string name="ko_download_game">Download</string>
     <string name="ko_ready_game">Game in preparation</string>
@@ -424,6 +435,11 @@ We recommend that you connect an external storage device."</string>
     <string name="ko_battle_net_clearance_exit_tips">Really want to give up the fight with a small partner, exit?</string>
     <string name="ko_playing_for_while">Play for a while</string>
     <string name="ko_close">Exit</string>
+    <string name="ko_bnet_novice_training_tips">Join the novice training before fight, to know operating well ^_^</string>
+    <string name="ko_bnet_novice_training_start">Start the novice training</string>
+    <string name="ko_bnet_novice_training_skip">Skip</string>
+    <string name="ko_bnet_novice_training_finished_tips">The novice training completed, join the fight!</string>
+    <string name="ko_bnet_novice_training_finished_confirm">Confirm</string>
     <string name="ko_file_option_dialog_view_title">Menu</string>
     <string name="ko_file_option_dialog_view_open">Open</string>
     <string name="ko_file_option_dialog_view_Delete">Delete</string>
@@ -459,6 +475,60 @@ We recommend that you connect an external storage device."</string>
     <string name="ko_bnet_no_player">No Player</string>
     <string name="ko_bnet_player_leave">%1$s left room</string>
     <string name="ko_bnet_player_kicked_out">%1$s be kicked out by HOST</string>
+    <string name="ko_fighter_commands">Commands</string>
+    <string name="ko_novice_teaching">Novice Teaching</string>
+    <string name="ko_novice_teaching_start_tip">Please use the handle together, follow the animation operation</string>
+    <string name="ko_novice_teaching_go_forward_l">→ Go Forward</string>
+    <string name="ko_novice_teaching_go_forward_r">← Go Forward</string>
+    <string name="ko_novice_teaching_back_off_l">← Back Off</string>
+    <string name="ko_novice_teaching_back_off_r">→ Back Off</string>
+    <string name="ko_novice_teaching_jump">↑ Jump</string>
+    <string name="ko_novice_teaching_squat">↓ Squat</string>
+    <string name="ko_novice_teaching_light_punch">Light Punch</string>
+    <string name="ko_novice_teaching_light_leg">Light Leg</string>
+    <string name="ko_novice_teaching_punch">Punch</string>
+    <string name="ko_novice_teaching_heavy_legs">Heavy Legs</string>
+    <string name="ko_novice_teaching_defense_l">Hold ← Defense</string>
+    <string name="ko_novice_teaching_defense_r">Hold → Defense</string>
+    <string name="ko_novice_teaching_dodge">Dodge</string>
+    <string name="ko_novice_teaching_super_hit">Hit</string>
+    <string name="ko_novice_teaching_attack_skill_first_l">"Combination of the following key, release the attack skill① 
+ ↓↘→ + X"</string>
+    <string name="ko_novice_teaching_attack_skill_first_r">"Combination of the following key, release the attack skill① 
+ ↓↙← + X"</string>
+    <string name="ko_novice_teaching_attack_skill_second_l">"Combination of the following key, release the attack skill② 
+ →↘↓↙← + B"</string>
+    <string name="ko_novice_teaching_attack_skill_second_r">"Combination of the following key, release the attack skill② 
+ ←↙↓↘→ + B"</string>
+    <string name="ko_novice_teaching_ko_opponent_tip">Well, with these moves to defeat the opponent.！</string>
+    <string name="ko_press_start_r1_or_select_to_fullscreen">全屏：SELECT+R1或遥控器OK键</string>
+    <string name="ko_kof97">KOF97</string>
+    <string name="ko_thw">Three kingdom wars</string>
+    <string name="ko_title_bar_me">(me)</string>
+    <string name="ko_btn_a_fuc">"A
+Weak Punch"</string>
+    <string name="ko_btn_b_fuc">"B
+Medium Kick"</string>
+    <string name="ko_btn_c_fuc">"C
+High Punch"</string>
+    <string name="ko_btn_d_fuc">"D
+High Kick"</string>
+    <string name="ko_btn_a_tkw_fuc">"A
+Attack"</string>
+    <string name="ko_btn_b_tkw_fuc">"B
+Jump"</string>
+    <string name="ko_btn_c_tkw_fuc">"C
+Check Items"</string>
+    <string name="ko_btn_d_tkw_fuc">"D
+Use Items"</string>
+    <string name="ko_hall_btn_a_fuc"> A Weak Punch</string>
+    <string name="ko_hall_btn_b_fuc"> B Medium Kick</string>
+    <string name="ko_hall_btn_c_fuc"> C High Punch</string>
+    <string name="ko_hall_btn_d_fuc"> D High Kick</string>
+    <string name="ko_hall_btn_a_tkw_fuc"> A Attack</string>
+    <string name="ko_hall_btn_b_tkw_fuc"> B Jump</string>
+    <string name="ko_hall_btn_c_tkw_fuc"> C Check Items</string>
+    <string name="ko_hall_btn_d_tkw_fuc"> D Use Items</string>
     <string name="ko_battle_main_menu_store">Store</string>
     <string name="ko_battle_main_menu_match">Match</string>
     <string name="ko_battle_main_menu_task">Task</string>

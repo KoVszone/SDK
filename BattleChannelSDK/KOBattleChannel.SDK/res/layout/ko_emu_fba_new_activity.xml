@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/ko_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainViewLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_android_white" android:gravity="center" android:id="@id/emu_fba_game_title_tv" android:background="@drawable/ko_emu_fba_title_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/emu_fba_title_bar_height_80px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="true">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cn.vszone.arc.media.VsGLSurface android:layout_gravity="center" android:id="@id/Surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <include android:id="@id/emu_fba_game_sides_bar_layout" android:visibility="gone" android:layout_width="@dimen/emu_fba_sides_bar_width_486px" android:layout_height="fill_parent" layout="@layout/ko_emu_moves_table_layout" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/content_f" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</RelativeLayout>

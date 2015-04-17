@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="anim" name="ko_config_activity_default_anim">@anim/ko_fade_in_slow</item>
+</resources>

@@ -121,6 +121,7 @@
     <color name="ko_bnet_font_gray">#ff9e9e9e</color>
     <color name="ko_battle_channel_bg">#ff111844</color>
     <color name="ko_battle_channel_blur_bg">#e5000000</color>
+    <color name="ko_emu_fba_side_bar_bg">#ff222222</color>
     <color name="default_circle_indicator_fill_color">#ffffffff</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
     <color name="default_circle_indicator_stroke_color">#ffdddddd</color>

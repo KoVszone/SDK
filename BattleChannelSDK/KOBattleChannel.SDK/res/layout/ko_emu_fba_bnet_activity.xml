@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:gravity="center" android:orientation="vertical" android:background="@color/ko_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.vszone.arc.media.VsGLSurface android:layout_gravity="center" android:id="@id/Surface" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mainViewLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/emu_fba_bnet_top_bar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/bnet_sangguo_title_bar_height_80px" layout="@layout/ko_bnet_player_info_view_kof97" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="true">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cn.vszone.arc.media.VsGLSurface android:layout_gravity="center" android:id="@id/Surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <include android:id="@id/emu_fba_game_sides_bar_layout" android:visibility="gone" android:layout_width="@dimen/emu_fba_sides_bar_width_486px" android:layout_height="fill_parent" layout="@layout/ko_emu_moves_table_layout" />
+        </LinearLayout>
+    </LinearLayout>
     <ImageView android:id="@id/fba_bnet_iv_effect" android:background="@color/ko_black_per70" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/ko_image_description" />
     <LinearLayout android:orientation="horizontal" android:id="@id/fba_bnet_lyt_top_status" android:layout_width="fill_parent" android:layout_height="@dimen/fba_bnet_lyt_top_status_height_122px" android:baselineAligned="false" android:weightSum="100.0">
         <RelativeLayout android:background="@drawable/ko_vs_bg_player_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="50.0">
@@ -25,7 +33,7 @@
         <ImageView android:id="@id/fba_bnet_iv_challenger_come_in_text_up" android:layout_width="@dimen/fba_bnet_iv_challenger_text_width_1340px" android:layout_height="@dimen/fba_bnet_iv_challenger_text_height_180px" android:layout_centerHorizontal="true" android:contentDescription="@string/ko_image_description" />
         <ImageView android:id="@id/fba_bnet_iv_challenger_come_in_text_down" android:layout_width="@dimen/fba_bnet_iv_challenger_text_width_1340px" android:layout_height="@dimen/fba_bnet_iv_challenger_text_height_180px" android:layout_below="@id/fba_bnet_iv_challenger_come_in_text_up" android:layout_centerHorizontal="true" android:contentDescription="@string/ko_image_description" />
     </RelativeLayout>
-    <cn.vszone.ko.tv.views.BNetPlayerStatus android:id="@id/fba_bnet_lyt_player_status" android:background="@color/ko_transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <cn.vszone.ko.tv.views.BNetResult android:id="@id/fba_bnet_lyt_result" android:background="@color/ko_transparent" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.tv.views.BNetPlayerStatusView android:id="@id/fba_bnet_lyt_player_status" android:background="@color/ko_transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.tv.views.BNetResultView android:id="@id/fba_bnet_lyt_result" android:background="@color/ko_transparent" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <FrameLayout android:id="@id/content_f" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size58px" android:textColor="@color/ko_dialog_title_black" android:gravity="center" android:background="@drawable/ko_grey_shape" android:layout_width="@dimen/battle_net_tips_title_bar_width_214px" android:layout_height="@dimen/battle_net_tips_title_bar_height_92px" android:layout_marginTop="@dimen/pad_key_mapping_title_margin_top_60px" android:text="@string/ko_map_dialog_tips" style="@style/WhiteTextStyle" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_net_tip_avatar_margintop_70">
+            <ImageView android:id="@id/battle_net_tip_avatar" android:layout_width="@dimen/battle_net_tips_ico_width_420px" android:layout_height="@dimen/battle_net_tips_ico_height_480px" android:scaleType="fitCenter" />
+            <TextView android:textSize="@dimen/font_size64px" android:textColor="@drawable/ko_pad_key_mapping_unfinished_dialog_text_color_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_battle_net_tips" android:maxLines="2" android:ems="14" style="@style/WhiteTextStyle" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/battle_net_tips_join_now_layout" android:background="@drawable/ko_menu_item_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/battle_net_tips_btn_magin_bottom_30px" android:layout_alignParentTop="true">
+                <TextView android:textSize="@dimen/font_size64px" android:textColor="@drawable/ko_pad_key_mapping_unfinished_dialog_text_color_selector" android:gravity="center" android:focusable="false" android:clickable="true" android:layout_width="@dimen/battle_net_tips_btn_width_880px" android:layout_height="@dimen/battle_net_tips_btn_height_152px" android:text="@string/ko_join_now" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/battle_net_tips_next_try_layout" android:background="@drawable/ko_menu_item_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/battle_net_tips_join_now_layout" android:layout_alignLeft="@id/battle_net_tips_join_now_layout">
+                <TextView android:textSize="@dimen/font_size64px" android:textColor="@drawable/ko_pad_key_mapping_unfinished_dialog_text_color_selector" android:gravity="center" android:focusable="false" android:clickable="true" android:layout_width="@dimen/battle_net_tips_btn_width_426px" android:layout_height="@dimen/battle_net_tips_btn_height_152px" android:text="@string/ko_next_try" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/battle_net_tips_cancel_tips_layout" android:background="@drawable/ko_menu_item_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/battle_net_tips_join_now_layout" android:layout_alignRight="@id/battle_net_tips_join_now_layout">
+                <TextView android:textSize="@dimen/font_size64px" android:textColor="@drawable/ko_pad_key_mapping_unfinished_dialog_text_color_selector" android:gravity="center" android:focusable="false" android:clickable="true" android:layout_width="@dimen/battle_net_tips_btn_width_426px" android:layout_height="@dimen/battle_net_tips_btn_height_152px" android:text="@string/ko_cancel_tips" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

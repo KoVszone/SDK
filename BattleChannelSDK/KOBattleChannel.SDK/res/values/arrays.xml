@@ -906,4 +906,55 @@
         <item>.apk|application/vnd.android.package-archive</item>
         <item>|*/*</item>
     </string-array>
+    <string-array name="ko_fighter97_info_list">
+        <item>0|KYO KUSANAGI|ko_pic_moves_avatar_1.jpg|KYOKUSANAGI.html</item>
+        <item>1|BENIMARU NIKAIDO|ko_pic_moves_avatar_2.jpg|BENIMARUNIKAIDO.html</item>
+        <item>2|GORO DAIMON|ko_pic_moves_avatar_3.jpg|GORODAIMON.html</item>
+        <item>3|TERRY BOGARD|ko_pic_moves_avatar_4.jpg|TERRYBOGARD.html</item>
+        <item>4|ANDY BOGARD|ko_pic_moves_avatar_5.jpg|ANDYBOGARD.html</item>
+        <item>5|JOE HIGASHI|ko_pic_moves_avatar_6.jpg|JOEHIGASHI.html</item>
+        <item>6|RYO SAKAZAKI|ko_pic_moves_avatar_7.jpg|RYOSAKAZAKI.html</item>
+        <item>7|ROBERT GARCIA|ko_pic_moves_avatar_8.jpg|ROBERTGARCIA.html</item>
+        <item>8|YURI SAKAZAKI|ko_pic_moves_avatar_9.jpg|YURISAKAZAKI.html</item>
+        <item>9|LEONA|ko_pic_moves_avatar_10.jpg|LEONA.html</item>
+        <item>10|RALF|ko_pic_moves_avatar_11.jpg|RALF.html</item>
+        <item>11|CLARK|ko_pic_moves_avatar_12.jpg|CLARK.html</item>
+        <item>12|ATHENA ASAMIYA|ko_pic_moves_avatar_13.jpg|ATHENAASAMIYA.html</item>
+        <item>13|SIE KENSOU|ko_pic_moves_avatar_14.jpg|SIEKENSOU.html</item>
+        <item>14|CHIN GENTSAI|ko_pic_moves_avatar_15.jpg|CHINGENTSAI.html</item>
+        <item>15|CHIZURU KAGURA|ko_pic_moves_avatar_16.jpg|CHIZURUKAGURA.html</item>
+        <item>16|MAI SHIRANUI|ko_pic_moves_avatar_17.jpg|MAISHIRANUI.html</item>
+        <item>17|KING|ko_pic_moves_avatar_18.jpg|KING.html</item>
+        <item>18|KIM KAPHWAN|ko_pic_moves_avatar_19.jpg|KIMKAPHWAN.html</item>
+        <item>19|CHANG KOEHAN|ko_pic_moves_avatar_20.jpg|CHANGKOEHAN.html</item>
+        <item>20|CHOI BOUNGE|ko_pic_moves_avatar_21.jpg|CHOIBOUNGE.html</item>
+        <item>21|YASHIRO NANAKASE|ko_pic_moves_avatar_22.jpg|YASHIRONANAKASE.html</item>
+        <item>22|SHERMIE|ko_pic_moves_avatar_23.jpg|SHERMIE.html</item>
+        <item>23|CHRIS|ko_pic_moves_avatar_24.jpg|CHRIS.html</item>
+        <item>24|RYUJI YAMAZAKI|ko_pic_moves_avatar_25.jpg|RYUJIYAMAZAKI.html</item>
+        <item>25|BLUE MARY|ko_pic_moves_avatar_26.jpg|BLUEMARY.html</item>
+        <item>26|BILLY KANE|ko_pic_moves_avatar_27.jpg|BILLYKANE.html</item>
+        <item>27|IORI YAGAMI|ko_pic_moves_avatar_28.jpg|IORIYAGAMI.html</item>
+        <item>28|SHINGO YABUKI|ko_pic_moves_avatar_29.jpg|SHINGOYABUKI.html</item>
+        <item>29|94KYO KUSANAGI|ko_pic_moves_avatar_30.jpg|94KYOKUSANAGI.html</item>
+        <item>30|YASHIRO NANAKASE|ko_pic_moves_avatar_31.jpg|DDQJS(YASHIRONANAKASE).html</item>
+        <item>31|SHERMIE|ko_pic_moves_avatar_32.jpg|LGXEM(SHERMIE).html</item>
+        <item>32|CHRIS|ko_pic_moves_avatar_33.jpg|HYKLS(CHRIS).html</item>
+        <item>33|IORI YAGAMI|ko_pic_moves_avatar_34.jpg|BZBSA(IORIYAGAMI).html</item>
+        <item>34|LEONA|ko_pic_moves_avatar_35.jpg|BZLAN(LEONA).html</item>
+    </string-array>
+    <string-array name="ko_fighter_sanguo_info_list">
+        <item>0|张飞|ko_pic_moves_avatar_zf.jpg|ZF.html</item>
+        <item>1|关羽|ko_pic_moves_avatar_gy.jpg|GY.html</item>
+        <item>2|魔法张飞|ko_pic_moves_avatar_mfzf.jpg|MFZF.html</item>
+        <item>3|马超|ko_pic_moves_avatar_mc.jpg|MC.html</item>
+        <item>4|陆逊|ko_pic_moves_avatar_lx.jpg|LX.html</item>
+        <item>5|赵云|ko_pic_moves_avatar_zy.jpg|ZY.html</item>
+        <item>6|张辽|ko_pic_moves_avatar_zl.jpg|ZL.html</item>
+        <item>7|诸葛亮|ko_pic_moves_avatar_zgl.jpg|ZGL.html</item>
+        <item>8|貂蝉|ko_pic_moves_avatar_dc.jpg|DC.html</item>
+        <item>9|黄忠|ko_pic_moves_avatar_hz.jpg|HZ.html</item>
+        <item>10|许褚|ko_pic_moves_avatar_xz.jpg|XZ.html</item>
+        <item>11|白甲黄忠|ko_pic_moves_avatar_bjhz.jpg|BJHZ.html</item>
+    </string-array>
 </resources>

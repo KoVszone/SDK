@@ -8,7 +8,6 @@
     <string name="ko_network_default_3G_name">3G</string>
     <string name="ko_network_default_4G_name">4G</string>
     <string name="ko_network_default_pppoe">拨号网络</string>
-      <string name="ko_ga_trackingId">UA-36039055-2</string>
     <string name="ko_network_not_available">网络不可用!</string>
     <string name="ko_zip_fail_exception_caught">压缩过程中出错了.</string>
     <string name="ko_zip_fail_file_can_not_read">无法读取源文件，压缩停止!</string>
@@ -142,6 +141,14 @@
     <string name="ko_data_loading">数据正在加载，请稍候···</string>
     <string name="ko_net_not_good_data_load_fail">网络状况不佳，数据加载失败…</string>
     <string name="ko_no_net_data_load_fail">当前无网络，数据加载失败…</string>
+    <string name="ko_gamepad_is_bnet_playing">请退出对战后再切换游戏</string>
+    <string name="ko_loading_data_failed">数据加载失败！</string>
+    <string name="ko_loading_libs_btn_tips">下载支持数据</string>
+    <string name="ko_loading_libs_act_tip1">正在下载游戏重要支持数据，</string>
+    <string name="ko_loading_libs_act_tip2">请稍等…</string>
+    <string name="ko_loading_libs_loading">返回(后台下载)</string>
+    <string name="ko_loading_libs_act_fail_tip">下载失败，请重试</string>
+    <string name="ko_loading_libs_retry">重试</string>
     <string name="ko_gamepad_game">手柄游戏</string>
     <string name="ko_file_size">大小：%1$s</string>
     <string name="ko_no_memery">存储空间不足，无法下载！</string>
@@ -194,11 +201,13 @@
     <string name="ko_switch_to_lanscape_mode">请将遥控器切换至“横“握模式!</string>
     <string name="ko_map_wrong_game_pad">请操作正确的手柄进行映射!</string>
     <string name="ko_continue_game">继续游戏</string>
+    <string name="ko_continue_novice_teaching">继续新手任务</string>
     <string name="ko_keymapping">映射按键</string>
     <string name="ko_save_archive">保存存档</string>
     <string name="ko_read_archive">读取存档</string>
     <string name="ko_advanced_setting">高级设置</string>
     <string name="ko_quit_game">退出游戏</string>
+    <string name="ko_quit_novice_teaching">退出新手任务</string>
     <string name="ko_image">图片</string>
     <string name="ko_slot_nth">存档 %1$d</string>
     <string name="ko_invalid_path">无效游戏路径</string>
@@ -259,7 +268,7 @@
     <string name="ko_setting_about_us_qq_group">QQ群：320086294</string>
     <string name="ko_setting_about_us_official_website">官方网站：tv.vszone.cn</string>
     <string name="ko_setting_about_us_weixin">微信：KOgames (扫描二维码关注)</string>
-    <string name="ko_setting_copyright_content">ＫＯ电玩城是一款电视游戏应用，利用浏览器中的搜索引擎，对互联网中的模拟器游戏资源实时搜索，并在界面设计、功能优化和操作体验上进行电视化的定制，为智能电视用户提供优质游戏服务。ＫＯ电玩城中所有的游戏资源均来自于第三方网站，仅供玩家学习交流，如果您认为软件所使用的第三方游戏资源侵犯了您的合法权益，请通过邮件：tv_service@vszone.cn与我们联系。</string>
+    <string name="ko_setting_copyright_content">ＫＯ电玩城是一款电视游戏应用，利用浏览器中的搜索引擎，对互联网中的模拟器游戏资源实时搜索，并在界面设计、功能优化和操作体验上进行电视化的定制，为智能电视用户提供优质游戏服务。ＫＯ电玩城中所有的游戏资源均来自于第三方网站，仅供玩家学习交流，如果您认为软件所使用的第三方游戏资源侵犯了您的合法权益，请通过邮件：service@kobox.tv与我们联系。</string>
     <string name="ko_setting_feedback_thanks">意见已提交，感谢您的支持！</string>
     <string name="ko_setting_feedback_warning">提交前请输入您的意见，感谢！</string>
     <string name="ko_setting_update_new_version">发现新版本</string>
@@ -362,6 +371,7 @@
     <string name="ko_single_game">单机练习</string>
     <string name="ko_find_more_daily_top20">查看今日TOP20</string>
     <string name="ko_wins_rate">胜率：%1$s</string>
+    <string name="ko_wins_score">积分：%1$s</string>
     <string name="ko_wins_rate_battle">胜率：%1$d</string>
     <string name="ko_download_game">下载游戏</string>
     <string name="ko_ready_game">游戏准备中</string>
@@ -425,6 +435,11 @@
     <string name="ko_battle_net_clearance_exit_tips">真的要放弃一起战斗的小伙伴，强行退出吗？</string>
     <string name="ko_playing_for_while">再玩一会儿</string>
     <string name="ko_close">退出</string>
+    <string name="ko_bnet_novice_training_tips">对战前去参与新手任务， 熟悉游戏操作吧 ^_^</string>
+    <string name="ko_bnet_novice_training_start">开始新手任务</string>
+    <string name="ko_bnet_novice_training_skip">跳过</string>
+    <string name="ko_bnet_novice_training_finished_tips">新手任务完成啦〜快加入对战与高手决一胜负吧！</string>
+    <string name="ko_bnet_novice_training_finished_confirm">确定</string>
     <string name="ko_file_option_dialog_view_title">菜单</string>
     <string name="ko_file_option_dialog_view_open">打开</string>
     <string name="ko_file_option_dialog_view_Delete">删除</string>
@@ -461,6 +476,60 @@
     <string name="ko_bnet_no_player">没有玩家</string>
     <string name="ko_bnet_player_leave">%1$s 离开房间</string>
     <string name="ko_bnet_player_kicked_out">%1$s 被房主踢出</string>
+    <string name="ko_fighter_commands">出招表</string>
+    <string name="ko_novice_teaching">新手教学</string>
+    <string name="ko_novice_teaching_start_tip">请使用手柄，跟随动画一起操作</string>
+    <string name="ko_novice_teaching_go_forward_l">→ 前进</string>
+    <string name="ko_novice_teaching_go_forward_r">←前进</string>
+    <string name="ko_novice_teaching_back_off_l">← 后退</string>
+    <string name="ko_novice_teaching_back_off_r">→ 后退</string>
+    <string name="ko_novice_teaching_jump">↑ 跳跃</string>
+    <string name="ko_novice_teaching_squat">↓ 下蹲</string>
+    <string name="ko_novice_teaching_light_punch">轻拳</string>
+    <string name="ko_novice_teaching_light_leg">轻腿</string>
+    <string name="ko_novice_teaching_punch">重拳</string>
+    <string name="ko_novice_teaching_heavy_legs">重腿</string>
+    <string name="ko_novice_teaching_defense_l">按住 ← 防御</string>
+    <string name="ko_novice_teaching_defense_r">按住 → 防御</string>
+    <string name="ko_novice_teaching_dodge">闪避</string>
+    <string name="ko_novice_teaching_super_hit">超重击</string>
+    <string name="ko_novice_teaching_attack_skill_first_l">"组合以下按键，释放攻击技能① 
+ ↓↘→ + X"</string>
+    <string name="ko_novice_teaching_attack_skill_first_r">"组合以下按键，释放攻击技能① 
+ ↓↙← + X"</string>
+    <string name="ko_novice_teaching_attack_skill_second_l">"组合以下按键，释放攻击技能② 
+ →↘︎↓↙← + B"</string>
+    <string name="ko_novice_teaching_attack_skill_second_r">"组合以下按键，释放攻击技能② 
+ ←↙︎↓↘→ + B"</string>
+    <string name="ko_novice_teaching_ko_opponent_tip">好了，用这些招式去击败对手吧！</string>
+    <string name="ko_press_start_r1_or_select_to_fullscreen">全屏：SELECT+R1或遥控器OK键</string>
+    <string name="ko_kof97">拳皇97</string>
+    <string name="ko_thw">三国战记</string>
+    <string name="ko_title_bar_me">（我）</string>
+    <string name="ko_btn_a_fuc">"A
+轻拳"</string>
+    <string name="ko_btn_b_fuc">"B
+轻腿"</string>
+    <string name="ko_btn_c_fuc">"C
+重拳"</string>
+    <string name="ko_btn_d_fuc">"D
+重腿"</string>
+    <string name="ko_btn_a_tkw_fuc">"A
+攻击"</string>
+    <string name="ko_btn_b_tkw_fuc">"B
+跳跃"</string>
+    <string name="ko_btn_c_tkw_fuc">"C
+查看道具"</string>
+    <string name="ko_btn_d_tkw_fuc">"D
+使用道具"</string>
+    <string name="ko_hall_btn_a_fuc"> A 轻拳</string>
+    <string name="ko_hall_btn_b_fuc"> B 轻腿</string>
+    <string name="ko_hall_btn_c_fuc"> C 重拳</string>
+    <string name="ko_hall_btn_d_fuc"> D 重腿</string>
+    <string name="ko_hall_btn_a_tkw_fuc"> A 攻击</string>
+    <string name="ko_hall_btn_b_tkw_fuc"> B 跳跃</string>
+    <string name="ko_hall_btn_c_tkw_fuc"> C 查看道具</string>
+    <string name="ko_hall_btn_d_tkw_fuc"> D 使用道具</string>
     <string name="ko_battle_main_menu_store">商城</string>
     <string name="ko_battle_main_menu_match">比赛</string>
     <string name="ko_battle_main_menu_task">任务</string>
@@ -485,4 +554,5 @@
     <string name="ko_battle_game_not_online">游戏还未上线</string>
     <string name="ko_battle_not_online_game_tip">敬请期待</string>
     <string name="ko_verify_sign_fail">KO_APP_KEY 是无效的</string>
+    <string name="ko_config_activity_default_bg_file_name">home_default_bg.jpg</string>
 </resources>

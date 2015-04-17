@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:koandroid="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:background="@drawable/ko_fighter_moves_fragment_border" android:layout_width="@dimen/battle_hall_man_detail_fragment_width_1280px" android:layout_height="@dimen/battle_hall_man_detail_fragment_height_818px" />
+    <WebView android:layout_gravity="center" android:id="@id/ko_fighter_detail_webview" android:background="@color/ko_transparent" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:layout_width="@dimen/battle_hall_man_detail_fragment_width_1280px" android:layout_height="@dimen/battle_hall_man_detail_fragment_height_818px" />
+    <TableLayout android:gravity="center" android:layout_gravity="right" android:orientation="vertical" android:paddingTop="@dimen/fighter_all_moves_margin_top_15px" android:layout_width="@dimen/fighter_all_moves_width_320px" android:layout_height="wrap_content">
+        <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="@dimen/fighter_all_moves_iv_width_58px" android:layout_height="@dimen/fighter_all_moves_iv_width_58px" android:src="@drawable/ko_vs_pic_fighte_cue_left" />
+            <TextView android:textSize="@dimen/font_size36px" android:textColor="@color/ko_white_per60" android:gravity="left|center" android:id="@id/fighter_all_moves_tv_button_a" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_man_list_spacing_36px">
+            <ImageView android:layout_width="@dimen/fighter_all_moves_iv_width_58px" android:layout_height="@dimen/fighter_all_moves_iv_width_58px" android:src="@drawable/ko_vs_pic_fighte_cue_down" />
+            <TextView android:textSize="@dimen/font_size36px" android:textColor="@color/ko_white_per60" android:gravity="left|center" android:id="@id/fighter_all_moves_tv_button_b" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_man_list_spacing_36px">
+            <ImageView android:layout_width="@dimen/fighter_all_moves_iv_width_58px" android:layout_height="@dimen/fighter_all_moves_iv_width_58px" android:src="@drawable/ko_vs_pic_fighte_cue_up" />
+            <TextView android:textSize="@dimen/font_size36px" android:textColor="@color/ko_white_per60" android:gravity="left|center" android:id="@id/fighter_all_moves_tv_button_c" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_man_list_spacing_36px">
+            <ImageView android:layout_width="@dimen/fighter_all_moves_iv_width_58px" android:layout_height="@dimen/fighter_all_moves_iv_width_58px" android:src="@drawable/ko_vs_pic_fighte_cue_right" />
+            <TextView android:textSize="@dimen/font_size36px" android:textColor="@color/ko_white_per60" android:gravity="left|center" android:id="@id/fighter_all_moves_tv_button_d" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

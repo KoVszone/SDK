@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:orientation="vertical" android:id="@id/widget_loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/widget_loading_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/ko_image_description" />
+    <ImageView android:id="@id/widget_loading_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/ko_image_description" />
+    <TextView android:textSize="@dimen/font_size54px" android:textStyle="bold" android:textColor="@color/ko_white" android:id="@id/widget_loading_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/widget_loading_image" android:layout_centerHorizontal="true" />
 </RelativeLayout>

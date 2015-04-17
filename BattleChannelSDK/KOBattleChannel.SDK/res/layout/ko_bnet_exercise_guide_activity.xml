@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/ko_black_per40" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size58px" android:textColor="@color/ko_dialog_title_black" android:gravity="center" android:layout_gravity="left" android:background="@drawable/ko_grey_shape" android:layout_width="@dimen/pad_key_mapping_title_width_453px" android:layout_height="@dimen/pad_key_mapping_title_height_91px" android:layout_marginTop="@dimen/pad_key_mapping_title_margin_top_60px" android:text="@string/ko_game_setting" style="@style/DarkerTextStyle" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:focusable="false" android:focusableInTouchMode="false" android:descendantFocusability="afterDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/exercise_mode_setting_item_margin_top_280px">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:layout_gravity="center" android:id="@id/exercise_mode_setting_one_last_bg_view" android:background="@drawable/ko_exercise_mode_setting_item_stroken_default" android:layout_width="@dimen/exercise_mode_setting_item_bg_width_442px" android:layout_height="@dimen/exercise_mode_setting_item_bg_height_636px" />
+            <View android:layout_gravity="center" android:id="@id/battle_net_excrise_guide_single_game_layout" android:background="@drawable/ko_single_mode_setting_item_bg_selector" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="@dimen/exercise_mode_setting_item_bg_width_424px" android:layout_height="@dimen/exercise_mode_setting_item_bg_height_620px" android:onClick="onEnterSingleMode" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/exercise_mode_setting_item_margin_220px">
+            <View android:layout_gravity="center" android:id="@id/exercise_mode_setting_two_last_bg_view" android:background="@drawable/ko_exercise_mode_setting_item_stroken_default" android:layout_width="@dimen/exercise_mode_setting_item_bg_width_442px" android:layout_height="@dimen/exercise_mode_setting_item_bg_height_636px" />
+            <View android:layout_gravity="center" android:id="@id/battle_net_excrise_guide_excrise_layout" android:background="@drawable/ko_exercise_mode_setting_item_bg_selector" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="@dimen/exercise_mode_setting_item_bg_width_424px" android:layout_height="@dimen/exercise_mode_setting_item_bg_height_620px" android:onClick="onEnterExerciseMode" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>
