@@ -291,5 +291,6 @@ JAVA开发文档见 /doc
 
 -libraryjars libs/ko_battle_channel.jar
 
+运行demo 提示 KO_APP_KEY 是无效的
 
 使用SDK中的 ko_debug.keystore编译运行Demo工程
