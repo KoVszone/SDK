@@ -290,3 +290,6 @@ JAVA开发文档见 /doc
 如果代码需要混淆， 请在proguard配置文件（例如proguard-project.txt）中添加：
 
 -libraryjars libs/ko_battle_channel.jar
+
+
+使用SDK中的 ko_debug.keystore编译运行Demo工程
