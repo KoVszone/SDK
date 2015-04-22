@@ -97,7 +97,7 @@
             android:name="KO_APP_ID"
             android:value="xxxxxxxxx" />
 ```
-其中 **KO_APP_ID**为合作方的名称（英文), **KO_APP_KEY** 为应用标识，该值由第三方开发者工程的包名和签名计算，具体计算方法请联系[help@vszone.cn](luoyi@vszone.cn)
+其中 **KO_APP_ID**为合作方的名称（英文), **KO_APP_KEY** 为应用标识，该值由第三方开发者工程的包名和签名计算，具体计算方法请联系官方QQ讨论群434142774
 
 #####*applicatin 节点中添加activity, service 等**
 
@@ -295,4 +295,36 @@ JAVA开发文档见 /doc
 
 如果代码需要混淆， 请在proguard配置文件（例如proguard-project.txt）中添加：
 
--libraryjars libs/ko_battle_channel.jar
+```
+### ko start
+### for gson
+-keepattributes Signature
+-keepattributes *Annotation*
+
+-dontwarn com.bda.controller.**
+-dontnote com.bda.controller.**
+-dontwarn a.**
+-dontnote a.**
+-dontwarn cn.vszone.**
+-dontnote cn.vszone.**
+-dontwarn com.a.**
+-dontnote com.a.**
+-dontwarn com.google.protobuf.**
+-dontnote com.google.protobuf.**
+-dontwarn u.aly.**
+-dontnote u.aly.**
+-dontwarn com.google.**
+-keep class a.** {*;}
+-keep class cn.vszone.** {*;}
+-keep class com.a.** {*;}
+-keep class com.bda.controller.** {*;}
+-keep class com.google.protobuf.** {*;}
+-keep class u.aly.** {*;}
+### ko end
+```
+
+运行demo 提示 KO_APP_KEY 是无效的
+
+请使用SDK中的 ko_debug.keystore编译运行Demo工程
+
+如有其它技术问题，请联系官方QQ讨论群434142774
