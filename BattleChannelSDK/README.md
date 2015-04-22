@@ -289,6 +289,7 @@ JAVA开发文档见 /doc
 
 如果代码需要混淆， 请在proguard配置文件（例如proguard-project.txt）中添加：
 
+```
 ### ko start
 ### for gson
 -keepattributes Signature
@@ -314,6 +315,7 @@ JAVA开发文档见 /doc
 -keep class com.google.protobuf.** {*;}
 -keep class u.aly.** {*;}
 ### ko end
+```
 
 运行demo 提示 KO_APP_KEY 是无效的
 
