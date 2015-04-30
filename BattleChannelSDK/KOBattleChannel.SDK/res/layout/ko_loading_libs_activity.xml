@@ -9,5 +9,6 @@
             <cn.vszone.ko.tv.views.CustomProgressBar android:textSize="@dimen/font_size58px" android:layout_gravity="center" android:id="@id/ko_loading_libs_progressBar" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="20" android:indeterminate="false" android:progressDrawable="@drawable/ko_unzip_progressbar" />
             <TextView android:textSize="@dimen/font_size58px" android:textStyle="bold" android:textColor="@color/ko_battle_hall_button_text_color_selector" android:gravity="center" android:layout_gravity="center" android:id="@id/ko_loading_libs_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ko_loading_libs_loading" style="@style/WhiteTextStyle" />
         </FrameLayout>
+        <Button android:textSize="@dimen/font_size58px" android:textStyle="bold" android:textColor="@color/ko_battle_hall_button_text_color_selector" android:gravity="center" android:id="@id/ko_loading_libs_btn_back" android:background="@drawable/ko_menu_item_selector" android:layout_width="@dimen/ko_loading_libs_progress_width_872px" android:layout_height="@dimen/ko_loading_libs_progress_height_140px" android:layout_marginTop="@dimen/margin_horizontal_16px" android:text="@string/ko_back" />
     </LinearLayout>
 </RelativeLayout>

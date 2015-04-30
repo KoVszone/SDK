@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_size28px" android:textColor="@color/ko_font_orange" android:id="@id/ko_fighter_list_category_tv" android:paddingLeft="@dimen/battle_hall_man_list_spacing_10px" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/fighter_list_content_lyt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_man_list_spacing_5px" android:layout_below="@id/ko_fighter_list_category_tv">
+        <include android:id="@id/fighter_list_item_one" layout="@layout/ko_man_movs_list_item" />
+        <include android:id="@id/fighter_list_item_two" layout="@layout/ko_man_movs_list_item" />
+        <include android:id="@id/fighter_list_item_three" layout="@layout/ko_man_movs_list_item" />
+    </LinearLayout>
+</RelativeLayout>

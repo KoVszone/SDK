@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:topLeftRadius="@dimen/radius8px" android:topRightRadius="@dimen/radius8px" android:bottomLeftRadius="@dimen/radius8px" android:bottomRightRadius="@dimen/radius8px" />
+    <corners android:topLeftRadius="@dimen/radius20px" android:topRightRadius="@dimen/radius20px" android:bottomLeftRadius="@dimen/radius20px" android:bottomRightRadius="@dimen/radius20px" />
     <stroke android:width="@dimen/stroke_width5px" android:color="@color/ko_white" />
     <solid android:color="#e5181818" />
 </shape>

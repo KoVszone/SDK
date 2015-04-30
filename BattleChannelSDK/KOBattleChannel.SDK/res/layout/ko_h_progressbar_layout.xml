@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/round_corner_progress_background" android:background="@drawable/ko_h_progressbar_bg" android:padding="@dimen/stroke_width5px" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/h_progressbar_lyt_second_progress" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/h_progressbar_lyt_progress" android:background="@drawable/ko_h_progressbar_progress_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</RelativeLayout>

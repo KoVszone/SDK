@@ -139,16 +139,20 @@ add shortcut to “My Games“!"</string>
     <string name="ko_press_any_key_to_enter">Press Any Key to skip</string>
     <string name="ko_loading_config">Loading Config···</string>
     <string name="ko_loading_images">Loading Images%1$s</string>
-    <string name="ko_data_loading">Loading data,please wait…</string>
+    <string name="ko_data_loading">Loading …</string>
     <string name="ko_net_not_good_data_load_fail">Network error，fail to load data…</string>
     <string name="ko_no_net_data_load_fail">Network error，fail to load data…</string>
     <string name="ko_gamepad_is_bnet_playing">please exit the battle before switching game</string>
-    <string name="ko_loading_data_failed">Loading data failed！</string>
-    <string name="ko_loading_libs_btn_tips">Loading support data</string>
-    <string name="ko_loading_libs_act_tip1">Support data loading，</string>
+    <string name="ko_loading_data_failed">Updating data failed！</string>
+    <string name="ko_loading_libs_btn_tips">Updating support data</string>
+    <string name="ko_loading_libs_btn_tips_progress">Updating support data%1$s%%</string>
+    <string name="ko_loading_libs_act_tip1">Updating support data</string>
+    <string name="ko_cancel_download_so_promit">Cancel download support data？</string>
     <string name="ko_loading_libs_act_tip2">Please Waiting…</string>
-    <string name="ko_loading_libs_loading">Back (Background Loading)</string>
-    <string name="ko_loading_libs_act_fail_tip">Download failed，please try again</string>
+    <string name="ko_loading_libs_loading">Background Updating</string>
+    <string name="ko_loading_libs_act_fail">Failed to update data</string>
+    <string name="ko_loading_libs_act_fail_tip">Update failed，please try again</string>
+    <string name="ko_loading_libs_act_need_update">Support data needed before starting the game</string>
     <string name="ko_loading_libs_retry">Retry</string>
     <string name="ko_gamepad_game">Need Gamepad</string>
     <string name="ko_file_size">Size:%1$s</string>
@@ -529,6 +533,11 @@ Use Items"</string>
     <string name="ko_hall_btn_b_tkw_fuc"> B Jump</string>
     <string name="ko_hall_btn_c_tkw_fuc"> C Check Items</string>
     <string name="ko_hall_btn_d_tkw_fuc"> D Use Items</string>
+    <string name="ko_main_load_time_tip">About one minute</string>
+    <string name="ko_battle_caton">Battle Caton</string>
+    <string name="ko_contact">QQ/Email/Phone</string>
+    <string name="ko_tip_allkeytoactive">Press any key to activate</string>
+    <string name="ko_tip_unknow_gamepad_added">Unknown gamepad access</string>
     <string name="ko_battle_main_menu_store">Store</string>
     <string name="ko_battle_main_menu_match">Match</string>
     <string name="ko_battle_main_menu_task">Task</string>
@@ -547,10 +556,14 @@ Use Items"</string>
     <string name="ko_battle_load_res_fail">加载失败</string>
     <string name="ko_battle_load_res_reload">重新加载</string>
     <string name="ko_battle_load_res">正在准备必备的数据…</string>
-    <string name="ko_battle_load_res_downloading">数据获取中…%1$d%%</string>
-    <string name="ko_battle_load_res_verify">数据准备中…%1$d%%</string>
+    <string name="ko_battle_load_res_downloading">数据获取中…%1$.2f%%</string>
+    <string name="ko_battle_load_res_verify">数据准备中…%1$.2f%%</string>
     <string name="ko_battle_in_login">登录中…</string>
     <string name="ko_battle_game_not_online">游戏还未上线</string>
     <string name="ko_battle_not_online_game_tip">敬请期待</string>
-    <string name="ko_verify_sign_fail">KO_APP_KEY is invalid</string>
+    <string name="ko_verify_sign_fail">AndroidManifest.xml中KO_APP_KEY不存在或错误。请联系官方QQ讨论群434142774重新申请</string>
+    
+    <string name="ko_loading_libs_text_tips">正在更新支持数据</string>
+    <string name="ko_game_downloading_progress">正在下载游戏%1$s%%</string>
+    <string name="ko_game_downloading">正在下载游戏</string>
 </resources>
