@@ -248,7 +248,11 @@ xZAaQpwqftd4woA9K1NW" />
             android:screenOrientation="landscape"
             android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
         </activity>
-
+        <activity
+            android:name="cn.vszone.tv.gamebox.FighterListActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="landscape" >
+        </activity>
         <service android:name="cn.vszone.ko.gm.download.service.DownloadService" />
         <service android:name="cn.vszone.ko.bnet.core.BattleNetService" />
         <service android:name="cn.vszone.ko.tv.services.KoGameService" />
