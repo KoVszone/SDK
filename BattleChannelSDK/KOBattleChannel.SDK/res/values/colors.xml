@@ -96,6 +96,8 @@
     <color name="ko_dialog_item_green">#ffb3ed57</color>
     <color name="ko_download_v_progressbar_bg_black_per85">#d9333333</color>
     <color name="ko_install_v_progressbar_bg_green_per85">#d9195509</color>
+    <color name="ko_item_blue">#ff1b8ee7</color>
+    <color name="ko_item_light_blue">#ff4dbbbc</color>
     <color name="ko_stroke_gray">#88ffffff</color>
     <color name="ko_web_background">#ff373737</color>
     <color name="ko_toast_backround">#e52c2939</color>
@@ -122,6 +124,7 @@
     <color name="ko_battle_channel_bg">#ff111844</color>
     <color name="ko_battle_channel_blur_bg">#e5000000</color>
     <color name="ko_emu_fba_side_bar_bg">#ff222222</color>
+    <color name="ko_fighter_list_bg">#cc181818</color>
     <color name="default_circle_indicator_fill_color">#ffffffff</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
     <color name="default_circle_indicator_stroke_color">#ffdddddd</color>

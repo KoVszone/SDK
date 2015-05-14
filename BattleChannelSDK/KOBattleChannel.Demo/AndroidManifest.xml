@@ -70,14 +70,16 @@
         <meta-data
             android:name="UMENG_CHANNEL"
             android:value="Website" />
+<!--         debug -->
+
         <meta-data
             android:name="KO_APP_KEY"
-            android:value="dE0oRhauOX75w0bEXvb29htNM6QQ6IjT91OO3uiK4/sIofwbMoVIFR4x+7I4q/Xxt+DBrJcAIV/t
- 2JYs8Yg+5/eRJ511PNRd" /> 
-<!--         <meta-data -->
-<!--             android:name="KO_APP_KEY" -->
-<!--             android:value="7NxHYkMUTi9l9z5wPxjQX/kKPa4XChRN6UpaMyzUQ7FFEVLhc6sAADhLXwG/TvrnRgTOZeZiB1Iv -->
-<!-- xZAaQpwqftd4woA9K1NW" /> -->
+            android:value="dE0oRhauOX75w0bEXvb29htNM6QQ6IjT91OO3uiK4/sIofwbMoVIFR4x+7I4q/Xxt+DBrJcAIV/t2JYs8Yg+5/eRJ511PNRd" />
+<!--
+        <meta-data
+            android:name="KO_APP_KEY"
+            android:value="7NxHYkMUTi9l9z5wPxjQX/kKPa4XChRN6UpaMyzUQ7FFEVLhc6sAADhLXwG/TvrnRgTOZeZiB1IvxZAaQpwqftd4woA9K1NW" /> 
+  --> 
         <meta-data
             android:name="KO_CHANNEL"
             android:value="KO_DEMO" />
@@ -245,6 +247,12 @@
             android:screenOrientation="landscape"
             android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
         </activity>
+			<activity
+			    android:name="cn.vszone.tv.gamebox.FighterListActivity"
+			    android:hardwareAccelerated="false"
+			    android:screenOrientation="landscape"
+			    android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
+			</activity>
 
         <service android:name="cn.vszone.ko.gm.download.service.DownloadService" />
         <service android:name="cn.vszone.ko.bnet.core.BattleNetService" />

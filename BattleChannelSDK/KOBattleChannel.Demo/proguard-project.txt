@@ -36,6 +36,10 @@
 -dontnote com.google.protobuf.**
 -dontwarn u.aly.**
 -dontnote u.aly.**
+-dontwarn de.greenrobot.event.**
+-dontnote de.greenrobot.event.**
+-dontwarn org.achartengine.**
+-dontnote org.achartengine.**
 -dontwarn com.google.**
 -keep class a.** {*;}
 -keep class cn.vszone.** {*;}
@@ -43,4 +47,6 @@
 -keep class com.bda.controller.** {*;}
 -keep class com.google.protobuf.** {*;}
 -keep class u.aly.** {*;}
+-keep class de.greenrobot.event.** {*;}
+-keep class org.achartengine.** {*;}
 ### ko end

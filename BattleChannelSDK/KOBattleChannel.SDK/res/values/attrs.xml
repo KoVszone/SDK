@@ -33,6 +33,14 @@
     <attr name="zoomscale" format="float" />
     <attr name="backgroundSrc" format="reference" />
     <attr name="stickSrc" format="reference" />
+    <attr name="koProgress" format="float" />
+    <attr name="koBackgroundPadding" format="dimension" />
+    <attr name="koRadius" format="dimension" />
+    <attr name="koMax" format="float" />
+    <attr name="koProgressColor" format="reference|color" />
+    <attr name="koBackgroundColor" format="reference|color" />
+    <attr name="koSecondaryProgress" format="float" />
+    <attr name="koSecondaryProgressColor" format="reference|color" />
     <attr name="radius" format="integer" />
     <attr name="vpiCirclePageIndicatorStyle" format="reference" />
     <attr name="centered" format="boolean" />
