@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ko_black_per70" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/battle_net_result_effect_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/ko_image_description" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_net_result_brv_margin_left_50px" android:layout_marginRight="@dimen/battle_net_result_brv_margin_right_50px">
+                <cn.vszone.ko.tv.views.BNetResultItemView android:id="@id/battle_net_result_brv_player1" android:layout_width="@dimen/battle_net_result_brv_item_width_767px" android:layout_height="@dimen/battle_net_result_brv_item_height_318px" />
+                <cn.vszone.ko.tv.views.BNetResultItemView android:id="@id/battle_net_result_brv_player2" android:layout_width="@dimen/battle_net_result_brv_item_width_767px" android:layout_height="@dimen/battle_net_result_brv_item_height_318px" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center" android:id="@id/battle_net_result_rlt_leval_pass" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/battle_net_result_vbg2_height_240px">
+                    <TextView android:background="@drawable/ko_vs_bg_result_title_success" android:visibility="visible" android:layout_width="@dimen/battle_net_result_vbg2_width_800px" android:layout_height="@dimen/battle_net_result_vbg1_height_130px" />
+                    <LinearLayout android:gravity="center" android:visibility="visible" android:layout_width="@dimen/battle_net_result_vbg2_width_800px" android:layout_height="@dimen/battle_net_result_vbg1_height_130px">
+                        <TextView android:textSize="@dimen/font_size54px" android:textStyle="bold" android:textColor="#fff1a318" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_bnet_result_level_di" />
+                        <cn.vszone.ko.widget.views.NumberView android:id="@id/battle_net_result_number" android:layout_width="wrap_content" android:layout_height="wrap_content" app:number="1" app:style="orange_big" />
+                        <TextView android:textSize="@dimen/font_size54px" android:textStyle="bold" android:textColor="#fff1a318" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_bnet_result_level_tip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:gravity="center" android:id="@id/battle_net_result_llt_all_pass" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:id="@id/battle_net_result_success_view" android:layout_width="@dimen/battle_net_result_vbg2_width_800px" android:layout_height="@dimen/battle_net_result_vbg2_height_240px" />
+                </LinearLayout>
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_net_result_brv_margin_left_50px" android:layout_marginTop="@dimen/battle_net_result_brv_margin_top_f30px" android:layout_marginRight="@dimen/battle_net_result_brv_margin_right_50px">
+                <cn.vszone.ko.tv.views.BNetResultItemView android:id="@id/battle_net_result_brv_player3" android:layout_width="@dimen/battle_net_result_brv_item_width_767px" android:layout_height="@dimen/battle_net_result_brv_item_height_318px" />
+                <cn.vszone.ko.tv.views.BNetResultItemView android:id="@id/battle_net_result_brv_player4" android:layout_width="@dimen/battle_net_result_brv_item_width_767px" android:layout_height="@dimen/battle_net_result_brv_item_height_318px" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/battle_net_result_ryt_bts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_net_result_ryt_button_margin_top_52px">
+            <cn.vszone.ko.widget.button.KOButton android:id="@id/bnet_result_btn_back_to_lobby" android:background="@drawable/ko_button_orange_selector" android:layout_width="@dimen/bnet_result_btn_back_to_lobby_width_410px" android:layout_height="@dimen/bnet_result_btn_back_to_lobby_height_130px" app:text="@string/ko_bnet_result_btn_back_to_lobby" app:textSize="@dimen/font_size54px" app:textColor="@color/ko_white" app:textStyle="bold" app:drawableLeft="@drawable/ko_vs_ico_result_back" xmlns:app="http://schemas.android.com/apk/res-auto" />
+            <cn.vszone.ko.widget.button.KOButton android:id="@id/bnet_result_btn_continue" android:background="@drawable/ko_button_orange_selector" android:layout_width="@dimen/bnet_result_btn_back_to_lobby_width_410px" android:layout_height="@dimen/bnet_result_btn_back_to_lobby_height_130px" android:layout_marginLeft="@dimen/bnet_result_margin_horizontal_98px" app:text="@string/ko_bnet_result_btn_continue" app:textSize="@dimen/font_size54px" app:textColor="@color/ko_white" app:textStyle="bold" app:drawableLeft="@drawable/ko_vs_ico_result_again" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

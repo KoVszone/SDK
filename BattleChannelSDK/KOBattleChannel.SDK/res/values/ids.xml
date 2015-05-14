@@ -38,7 +38,16 @@
     <item type="id" name="battle_hall_content_container_layout">false</item>
     <item type="id" name="battle_hall_personal_info_layout">false</item>
     <item type="id" name="battle_hall_main_button_container">false</item>
-    <item type="id" name="battle_hall_main_BNetDownloadButton">false</item>
+    <item type="id" name="battle_hall_main_download_button">false</item>
+    <item type="id" name="battle_hall_main_download_ico_iv">false</item>
+    <item type="id" name="battle_hall_main_download_title_iv">false</item>
+    <item type="id" name="battle_hall_main_downloading_button">false</item>
+    <item type="id" name="battle_hall_main_progressbar">false</item>
+    <item type="id" name="battle_hall_main_downloading_tv">false</item>
+    <item type="id" name="battle_hall_main_rapid_start_button">false</item>
+    <item type="id" name="battle_hall_main_rapid_start_ico_iv">false</item>
+    <item type="id" name="battle_hall_main_rapid_start_tv">false</item>
+    <item type="id" name="battle_hall_main_rapid_start_btn_effect_iv">false</item>
     <item type="id" name="battle_hall_excrcise_button_container">false</item>
     <item type="id" name="battle_hall_excrcise_ico_iv">false</item>
     <item type="id" name="battle_hall_excrcise_button_tv">false</item>
@@ -72,8 +81,7 @@
     <item type="id" name="battle_hall_daily_ranking_iv">false</item>
     <item type="id" name="battle_hall_daily_ranking_avatar_iv">false</item>
     <item type="id" name="battle_hall_daily_ranking_name_tv">false</item>
-    <item type="id" name="battle_hall_daily_ranking_level_iv">false</item>
-    <item type="id" name="rating_points_view_rating_iv_lv">false</item>
+    <item type="id" name="battle_hall_daily_ranking_level_tv">false</item>
     <item type="id" name="battle_hall_daily_ranking_level_nv">false</item>
     <item type="id" name="battle_hall_daily_ranking_wins_tv">false</item>
     <item type="id" name="battle_hall_daily_ranking_lose_tv">false</item>
@@ -237,35 +245,18 @@
     <item type="id" name="ko_battle_main_setting_sub_root">false</item>
     <item type="id" name="ko_battle_main_setting_sub_icon">false</item>
     <item type="id" name="ko_battle_main_setting_sub_name">false</item>
-    <item type="id" name="battle_hall_main_download_button">false</item>
-    <item type="id" name="battle_hall_main_download_ico_iv">false</item>
-    <item type="id" name="battle_hall_main_download_title_iv">false</item>
-    <item type="id" name="battle_hall_main_downloading_button">false</item>
-    <item type="id" name="battle_hall_main_progressbar">false</item>
-    <item type="id" name="battle_hall_main_download_waiting_tv">false</item>
-    <item type="id" name="battle_hall_main_text_progress_ll">false</item>
-    <item type="id" name="battle_hall_main_downloading_tv">false</item>
-    <item type="id" name="battle_hall_main_downloading_progress_tv">false</item>
-    <item type="id" name="battle_hall_main_rapid_start_button">false</item>
-    <item type="id" name="battle_hall_main_rapid_start_ico_iv">false</item>
-    <item type="id" name="battle_hall_main_rapid_start_tv">false</item>
-    <item type="id" name="battle_hall_main_rapid_start_btn_effect_iv">false</item>
     <item type="id" name="exercise_mode_setting_one_last_bg_view">false</item>
     <item type="id" name="battle_net_excrise_guide_single_game_layout">false</item>
     <item type="id" name="exercise_mode_setting_two_last_bg_view">false</item>
     <item type="id" name="battle_net_excrise_guide_excrise_layout">false</item>
-    <item type="id" name="exercise_mode_setting_three_last_bg_view">false</item>
-    <item type="id" name="battle_net_excrise_guide_fighter_moves_view">false</item>
-    <item type="id" name="exercise_mode_setting_item_practice_type_3">false</item>
-    <item type="id" name="exercise_mode_setting_four_last_bg_view">false</item>
-    <item type="id" name="battle_net_excrise_guide_fresh_guide_view">false</item>
-    <item type="id" name="exercise_mode_setting_item_practice_type_4">false</item>
     <item type="id" name="exercise_mode_setting_forground_person_one_iv">false</item>
     <item type="id" name="exercise_mode_setting_forground_person_two_iv">false</item>
     <item type="id" name="exercise_mode_setting_forground_person_one_foc_iv">false</item>
     <item type="id" name="exercise_mode_setting_forground_person_two_foc_iv">false</item>
     <item type="id" name="exercise_mode_setting_item_practice_type_1">false</item>
     <item type="id" name="exercise_mode_setting_item_practice_type_2">false</item>
+    <item type="id" name="exercise_mode_setting_last_bg_view">false</item>
+    <item type="id" name="exercise_mode_setting_bg_view">false</item>
     <item type="id" name="bnet_novice_training_avatar">false</item>
     <item type="id" name="ko_bnet_novice_training_tips_tv">false</item>
     <item type="id" name="bnet_novice_training_tv1_layout">false</item>
@@ -314,6 +305,7 @@
     <item type="id" name="rating_points_view_rl">false</item>
     <item type="id" name="rating_points_view_rating_iv_bg">false</item>
     <item type="id" name="rating_points_tv_name">false</item>
+    <item type="id" name="rating_points_view_rating_iv_lv">false</item>
     <item type="id" name="rating_points_view_rating_nv_lv">false</item>
     <item type="id" name="rating_points_view_right_rl">false</item>
     <item type="id" name="rating_points_view_right_rating_iv_bg">false</item>
@@ -443,14 +435,6 @@
     <item type="id" name="fba_novice_teaching_tip_title_tv">false</item>
     <item type="id" name="fba_novice_teaching_stage_tv">false</item>
     <item type="id" name="fba_novice_teaching_finish_tip_iv">false</item>
-    <item type="id" name="fighter_list_activity_bg_iv">false</item>
-    <item type="id" name="fighter_list_activity_tv_title">false</item>
-    <item type="id" name="fighter_list_activity_gridview">false</item>
-    <item type="id" name="ko_fighter_list_category_tv">false</item>
-    <item type="id" name="fighter_list_content_lyt">false</item>
-    <item type="id" name="fighter_list_item_one">false</item>
-    <item type="id" name="fighter_list_item_two">false</item>
-    <item type="id" name="fighter_list_item_three">false</item>
     <item type="id" name="ko_fighter_detail_webview">false</item>
     <item type="id" name="fighter_all_moves_tv_button_a">false</item>
     <item type="id" name="fighter_all_moves_tv_button_b">false</item>
@@ -557,9 +541,6 @@
     <item type="id" name="games_show_v_head">false</item>
     <item type="id" name="value">false</item>
     <item type="id" name="seekbar">false</item>
-    <item type="id" name="round_corner_progress_background">false</item>
-    <item type="id" name="h_progressbar_lyt_second_progress">false</item>
-    <item type="id" name="h_progressbar_lyt_progress">false</item>
     <item type="id" name="has_focus_lyt_content">false</item>
     <item type="id" name="has_focus_iv_focus">false</item>
     <item type="id" name="setting_update_tv_tag">false</item>
@@ -589,21 +570,16 @@
     <item type="id" name="ko_loading_libs_btn">false</item>
     <item type="id" name="ko_loading_libs_progressBar">false</item>
     <item type="id" name="ko_loading_libs_tv">false</item>
-    <item type="id" name="ko_loading_libs_btn_back">false</item>
     <item type="id" name="main_iv_bg">false</item>
-    <item type="id" name="main_iv_tv_bg">false</item>
-    <item type="id" name="main_iv_tv_man">false</item>
-    <item type="id" name="main_iv_channel">false</item>
     <item type="id" name="main_iv_logo">false</item>
-    <item type="id" name="main_start_hpb_load">false</item>
     <item type="id" name="main_tv_version_name">false</item>
+    <item type="id" name="main_iv_channel">false</item>
     <item type="id" name="main_start_tv_load_status">false</item>
-    <item type="id" name="main_start_tv_load_time_tip">false</item>
-    <item type="id" name="main_tv_q_code">false</item>
     <item type="id" name="ko_man_list_content_lyt">false</item>
     <item type="id" name="ko_man_moves_list_item_lyt_head">false</item>
     <item type="id" name="ko_man_moves_list_item_iv_head">false</item>
     <item type="id" name="ko_man_moves_list_item_tv_name">false</item>
+    <item type="id" name="ko_man_moves_list_item_margin_view">false</item>
     <item type="id" name="mine_item_iv_bg">false</item>
     <item type="id" name="mine_item_tv_head">false</item>
     <item type="id" name="mine_item_lyt_icon">false</item>
@@ -645,25 +621,13 @@
     <item type="id" name="my_center_search">false</item>
     <item type="id" name="my_game_pad_h_scroll_view">false</item>
     <item type="id" name="my_game_pad_ll_items_container">false</item>
-    <item type="id" name="my_game_pad_item_unactived_container">false</item>
-    <item type="id" name="my_game_pad_item_unactived_up_tips">false</item>
-    <item type="id" name="my_game_pad_item_unactived_up_tips_tv_hint">false</item>
-    <item type="id" name="my_game_pad_item_unactived">false</item>
     <item type="id" name="my_game_pad_item_idx0_container">false</item>
-    <item type="id" name="my_game_pad_item_idx0_up_tips">false</item>
-    <item type="id" name="my_game_pad_item_idx0_up_tips_tv_hint">false</item>
     <item type="id" name="my_game_pad_item_idx0">false</item>
     <item type="id" name="my_game_pad_item_idx1_container">false</item>
-    <item type="id" name="my_game_pad_item_idx1_up_tips">false</item>
-    <item type="id" name="my_game_pad_item_idx1_up_tips_tv_hint">false</item>
     <item type="id" name="my_game_pad_item_idx1">false</item>
     <item type="id" name="my_game_pad_item_idx2_container">false</item>
-    <item type="id" name="my_game_pad_item_idx2_up_tips">false</item>
-    <item type="id" name="my_game_pad_item_idx2_up_tips_tv_hint">false</item>
     <item type="id" name="my_game_pad_item_idx2">false</item>
     <item type="id" name="my_game_pad_item_idx3_container">false</item>
-    <item type="id" name="my_game_pad_item_idx3_up_tips">false</item>
-    <item type="id" name="my_game_pad_item_idx3_up_tips_tv_hint">false</item>
     <item type="id" name="my_game_pad_item_idx3">false</item>
     <item type="id" name="my_game_pad_item_idx4_container">false</item>
     <item type="id" name="my_game_pad_item_idx4_up_tips">false</item>
@@ -756,6 +720,10 @@
     <item type="id" name="battle_info_player_four_avatar_iv">false</item>
     <item type="id" name="battle_info_player_four_name_tv">false</item>
     <item type="id" name="rpg_battle_info_status_iv">false</item>
+    <item type="id" name="battle_hall_main_join_button">false</item>
+    <item type="id" name="battle_hall_main_join_ico_iv">false</item>
+    <item type="id" name="battle_hall_main_join_tv">false</item>
+    <item type="id" name="battle_hall_main_join_btn_effect_iv">false</item>
     <item type="id" name="online_person_history_max_score_tv">false</item>
     <item type="id" name="battle_hall_personal_info_total_history_count_tv">false</item>
     <item type="id" name="battle_hall_personal_info_total_today_count_tv">false</item>
@@ -847,7 +815,6 @@
     <item type="id" name="setting_feed_back_other_tv_title">false</item>
     <item type="id" name="setting_feedback_other_tv_hint">false</item>
     <item type="id" name="setting_feedback_other_et_comments">false</item>
-    <item type="id" name="setting_feedback_other_et_contact">false</item>
     <item type="id" name="setting_feedback_other_bt_submit">false</item>
     <item type="id" name="setting_feedback_other_qrcode_iv_src">false</item>
     <item type="id" name="setting_feedback_other_qrcode_tv_hint">false</item>

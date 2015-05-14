@@ -109,13 +109,10 @@
         <item name="android:paddingBottom">@dimen/margin_vertical_50px</item>
     </style>
     <style name="VersionTextStyle" parent="@style/KoTextStyle">
-        <item name="android:textSize">@dimen/font_size22px</item>
-        <item name="android:textColor">@color/ko_white</item>
+        <item name="android:textSize">@dimen/font_size38px</item>
+        <item name="android:textColor">@color/ko_black_per70</item>
         <item name="android:background">@drawable/ko_version_bg_gray</item>
-        <item name="android:paddingLeft">10.0dip</item>
-        <item name="android:paddingTop">5.0dip</item>
-        <item name="android:paddingRight">10.0dip</item>
-        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:padding">5.0dip</item>
     </style>
     <style name="TipPaditemStyle">
         <item name="android:textSize">@dimen/font_size32px</item>

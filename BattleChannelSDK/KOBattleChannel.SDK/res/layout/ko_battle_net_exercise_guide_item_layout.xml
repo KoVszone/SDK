@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/exercise_mode_setting_last_bg_view" android:background="@drawable/ko_exercise_mode_setting_item_stroken_default" android:layout_width="@dimen/exercise_mode_setting_item_bg_width_442px" android:layout_height="@dimen/exercise_mode_setting_item_bg_height_636px" />
+    <View android:layout_gravity="center" android:id="@id/exercise_mode_setting_bg_view" android:background="@drawable/ko_exercise_mode_setting_item_bg_selector" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="@dimen/exercise_mode_setting_item_bg_width_424px" android:layout_height="@dimen/exercise_mode_setting_item_bg_height_620px" />
+</FrameLayout>
