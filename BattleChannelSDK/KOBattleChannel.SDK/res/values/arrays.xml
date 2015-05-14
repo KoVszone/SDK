@@ -943,6 +943,20 @@
         <item>33|IORI YAGAMI|ko_pic_moves_avatar_34.jpg|BZBSA(IORIYAGAMI).html</item>
         <item>34|LEONA|ko_pic_moves_avatar_35.jpg|BZLAN(LEONA).html</item>
     </string-array>
+    <string-array name="ko_fighter_category">
+        <item>主角队</item>
+        <item>饿狼传说队</item>
+        <item>龙虎之拳队</item>
+        <item>怒之队</item>
+        <item>超能力队</item>
+        <item>女格斗家队</item>
+        <item>金队</item>
+        <item>新面孔队</item>
+        <item>特别参赛队</item>
+        <item>其他</item>
+        <item>大蛇队</item>
+        <item>暴走</item>
+    </string-array>
     <string-array name="ko_fighter_sanguo_info_list">
         <item>0|张飞|ko_pic_moves_avatar_zf.jpg|ZF.html</item>
         <item>1|关羽|ko_pic_moves_avatar_gy.jpg|GY.html</item>
@@ -956,5 +970,49 @@
         <item>9|黄忠|ko_pic_moves_avatar_hz.jpg|HZ.html</item>
         <item>10|许褚|ko_pic_moves_avatar_xz.jpg|XZ.html</item>
         <item>11|白甲黄忠|ko_pic_moves_avatar_bjhz.jpg|BJHZ.html</item>
+    </string-array>
+    <string-array name="ko_fighter_old_info_list">
+        <item>0|猪八戒|ko_pic_moves_avatar_zbj.jpg|ZBJ.html</item>
+        <item>1|龙马|ko_pic_moves_avatar_lm.jpg|LM.html</item>
+        <item>2|孙悟空|ko_pic_moves_avatar_swk.jpg|SWK.html</item>
+        <item>3|小龙女|ko_pic_moves_avatar_xln.jpg|XLN.html</item>
+        <item>4|沙悟净|ko_pic_moves_avatar_swj.jpg|SWJ.html</item>
+    </string-array>
+    <string-array name="ko_fighter97_info_list_for_show">
+        <item>0|草雉京|ko_pic_moves_avatar_1.jpg|KYOKUSANAGI.html</item>
+        <item>1|二阶堂红丸|ko_pic_moves_avatar_2.jpg|BENIMARUNIKAIDO.html</item>
+        <item>2|大门五郎|ko_pic_moves_avatar_3.jpg|GORODAIMON.html</item>
+        <item>3|特瑞|ko_pic_moves_avatar_4.jpg|TERRYBOGARD.html</item>
+        <item>4|安迪|ko_pic_moves_avatar_5.jpg|ANDYBOGARD.html</item>
+        <item>5|东丈|ko_pic_moves_avatar_6.jpg|JOEHIGASHI.html</item>
+        <item>6|坂崎亮|ko_pic_moves_avatar_7.jpg|RYOSAKAZAKI.html</item>
+        <item>7|罗伯特|ko_pic_moves_avatar_8.jpg|ROBERTGARCIA.html</item>
+        <item>8|坂崎由莉|ko_pic_moves_avatar_9.jpg|YURISAKAZAKI.html</item>
+        <item>9|莉安娜|ko_pic_moves_avatar_10.jpg|LEONA.html</item>
+        <item>10|拉尔夫|ko_pic_moves_avatar_11.jpg|RALF.html</item>
+        <item>11|克拉克|ko_pic_moves_avatar_12.jpg|CLARK.html</item>
+        <item>12|麻宫雅典娜|ko_pic_moves_avatar_13.jpg|ATHENAASAMIYA.html</item>
+        <item>13|椎拳崇|ko_pic_moves_avatar_14.jpg|SIEKENSOU.html</item>
+        <item>14|镇元斋|ko_pic_moves_avatar_15.jpg|CHINGENTSAI.html</item>
+        <item>15|神乐千鹤|ko_pic_moves_avatar_16.jpg|CHIZURUKAGURA.html</item>
+        <item>16|不知火舞|ko_pic_moves_avatar_17.jpg|MAISHIRANUI.html</item>
+        <item>17|京|ko_pic_moves_avatar_18.jpg|KING.html</item>
+        <item>18|金甲唤|ko_pic_moves_avatar_19.jpg|KIMKAPHWAN.html</item>
+        <item>19|陈国汉|ko_pic_moves_avatar_20.jpg|CHANGKOEHAN.html</item>
+        <item>20|蔡宝健|ko_pic_moves_avatar_21.jpg|CHOIBOUNGE.html</item>
+        <item>21|七枷社|ko_pic_moves_avatar_22.jpg|YASHIRONANAKASE.html</item>
+        <item>22|夏尔米|ko_pic_moves_avatar_23.jpg|SHERMIE.html</item>
+        <item>23|克丽斯|ko_pic_moves_avatar_24.jpg|CHRIS.html</item>
+        <item>24|山崎龙二|ko_pic_moves_avatar_25.jpg|RYUJIYAMAZAKI.html</item>
+        <item>25|布鲁玛莉|ko_pic_moves_avatar_26.jpg|BLUEMARY.html</item>
+        <item>26|比利|ko_pic_moves_avatar_27.jpg|BILLYKANE.html</item>
+        <item>27|八神庵|ko_pic_moves_avatar_28.jpg|IORIYAGAMI.html</item>
+        <item>28|矢吹真吾|ko_pic_moves_avatar_29.jpg|SHINGOYABUKI.html</item>
+        <item>29|94草雉京|ko_pic_moves_avatar_30.jpg|94KYOKUSANAGI.html</item>
+        <item>30|大地七枷社|ko_pic_moves_avatar_31.jpg|DDQJS(YASHIRONANAKASE).html</item>
+        <item>31|雷光夏尔米|ko_pic_moves_avatar_32.jpg|LGXEM(SHERMIE).html</item>
+        <item>32|火炎克丽斯|ko_pic_moves_avatar_33.jpg|HYKLS(CHRIS).html</item>
+        <item>33|暴走八神庵|ko_pic_moves_avatar_34.jpg|BZBSA(IORIYAGAMI).html</item>
+        <item>34|暴走莉安娜|ko_pic_moves_avatar_35.jpg|BZLAN(LEONA).html</item>
     </string-array>
 </resources>
