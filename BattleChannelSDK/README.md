@@ -226,7 +226,6 @@
 
         <service android:name="cn.vszone.ko.gm.download.service.DownloadService" />
         <service android:name="cn.vszone.ko.bnet.core.BattleNetService" />
-        <service android:name="cn.vszone.ko.tv.services.KoGameService" />
         <service
             android:name="cn.vszone.gamepad.virtual.VirtualGamdPadService"
             android:enabled="true"
