@@ -1,5 +1,16 @@
 #** 更新日志 **
 
+======= 2015-04-30 ============
+
+1.增加新对战游戏：西游释厄传Super <br/> 
+2.So库从armeabi-v7a移动到armeabi
+
+
+======= 2015-04-17 ============
+
+1.加载资源时，支持中途退出。支持断点续传<br/>
+2. 新增功能：出招表， 新手引导
+
 ======= 2015-04-09 ============
 
 1.Demo 的AndroidManifest.xml增加VirtualGamdPadService
@@ -91,12 +102,13 @@
             android:name="KO_APP_ID"
             android:value="xxxxxxxxx" />
 ```
-其中 **KO_APP_ID**为合作方的名称（英文), **KO_APP_KEY** 为应用标识，该值由第三方开发者工程的包名和签名计算，具体计算方法请联系官方QQ讨论群**434142774**
+
+其中 **KO_APP_ID**为合作方的名称（英文), **KO_APP_KEY** 为应用标识，该值由第三方开发者工程的包名和签名计算，具体计算方法请联系官方QQ讨论群434142774
 
 #####*applicatin 节点中添加activity, service 等**
 
 ```xml
-       <activity
+        <activity
             android:name="cn.vszone.ko.tv.battle.channel.StartUpActivity"
             android:configChanges="keyboardHidden"
             android:screenOrientation="landscape"
@@ -115,25 +127,27 @@
             android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme"
             android:windowSoftInputMode="stateUnchanged" />
         <activity
-            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetExitActivity"
+            android:name="cn.vszone.ko.tv.emu.bnet.BNetExitActivity"
             android:launchMode="singleTop"
             android:screenOrientation="landscape" />
         <activity
-            android:name="cn.vszone.tv.gamebox.BattleNetExerciseGuideActivity"
+            android:name="cn.vszone.tv.gamebox.BNetExerciseGuideActivity"
             android:launchMode="singleTop"
             android:screenOrientation="landscape"
             android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" />
         <activity
-            android:name="cn.vszone.tv.gamebox.BattleNetTipsActivity"
+            android:name="cn.vszone.tv.gamebox.BNetTipsActivity"
             android:launchMode="singleTask"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme"
             android:screenOrientation="landscape" />
         <activity
             android:name="cn.vszone.tv.gamebox.BattleHallActivity"
             android:hardwareAccelerated="false"
             android:launchMode="singleTop"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme"
             android:screenOrientation="landscape" />
         <activity
-            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetPrepareActivity"
+            android:name="cn.vszone.ko.tv.emu.bnet.BNetPrepareActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="landscape"
@@ -208,7 +222,7 @@
             android:theme="@style/KO_Battle_Channel_NormalBackgroundTheme"
             android:windowSoftInputMode="adjustNothing" />
         <activity
-            android:name="cn.vszone.ko.tv.emu.bnet.BattleNetLevelModePrepareActivity"
+            android:name="cn.vszone.ko.tv.emu.bnet.BNetLevelModePrepareActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="landscape"
@@ -217,7 +231,41 @@
             android:name="cn.vszone.ko.tv.emu.bnet.FbaBNetLevelModeActivity"
             android:launchMode="singleTask"
             android:screenOrientation="landscape" />
+        <activity
+            android:name="cn.vszone.tv.gamebox.LoadingLibsProgressActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
+        </activity>
+        <activity
+            android:name="cn.vszone.tv.gamebox.BNetNoviceGuideActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
+        </activity>
+        <activity
+            android:name="cn.vszone.ko.tv.emu.teaching.FbaTeachingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
+            <intent-filter>
+                <action android:name="ko.intent.action.FBA_TEAVHING" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.vszone.tv.gamebox.FighterMovesListActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="landscape"
+            android:theme="@style/KO_Battle_Channel_BlurBackgroundTheme" >
+        </activity>
+        <activity
+            android:name="cn.vszone.tv.gamebox.FighterListActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="landscape" >
+        </activity>
+        
         <service android:name="cn.vszone.ko.gm.download.service.DownloadService" />
         <service android:name="cn.vszone.ko.bnet.core.BattleNetService" />
         <service
@@ -320,4 +368,4 @@ JAVA开发文档见 /doc
 
 请使用SDK中的 ko_debug.keystore编译运行Demo工程
 
-如有其它技术问题，请联系官方QQ讨论群**434142774**
+如有其它技术问题，请联系官方QQ讨论群434142774

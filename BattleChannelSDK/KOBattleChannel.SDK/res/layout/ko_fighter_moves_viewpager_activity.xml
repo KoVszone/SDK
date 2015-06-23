@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.vszone.ko.support.v4.views.ViewPager android:id="@id/ko_fighter_all_vierpager" android:layout_width="fill_parent" android:layout_height="@dimen/battle_hall_man_detail_fragment_height_818px" android:layout_marginTop="@dimen/fighter_all_moves_margin_top_107px" android:layout_centerHorizontal="true" />
+    <cn.vszone.ko.tv.views.CirclePageIndicator android:id="@id/ko_fighter_all_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_circleindicator_margin_top_50px" android:layout_below="@id/ko_fighter_all_vierpager" android:layout_centerHorizontal="true" app:fillColor="#fff8ad1e" app:pageColor="@color/ko_white_per30" app:center_radius="@dimen/battle_hall_circleindicator_radius_9px" app:strokeColor="#4c000000" app:view_radius="@dimen/battle_hall_circleindicator_radius_9px" />
+</RelativeLayout>

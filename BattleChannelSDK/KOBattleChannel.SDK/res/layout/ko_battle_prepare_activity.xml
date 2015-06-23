@@ -2,5 +2,5 @@
 <FrameLayout android:background="@color/ko_black_per50" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView android:id="@id/bnet_prepare_iv_thunder_flash" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/ko_image_description" />
-    <cn.vszone.ko.tv.views.BNetPlayerStatus android:id="@id/bnet_prepare_player_status" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.vszone.ko.tv.views.BNetPlayerStatusView android:id="@id/bnet_prepare_player_status" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </FrameLayout>

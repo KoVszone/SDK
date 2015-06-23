@@ -16,6 +16,7 @@
         <enum name="white" value="1" />
         <enum name="orange_big" value="2" />
         <enum name="white_big" value="3" />
+        <enum name="red" value="4" />
     </attr>
     <attr name="minLength" format="integer" />
     <attr name="numberBackground" format="reference" />
@@ -30,6 +31,16 @@
     <attr name="drawableLeft" format="reference" />
     <attr name="drawableRight" format="reference" />
     <attr name="zoomscale" format="float" />
+    <attr name="backgroundSrc" format="reference" />
+    <attr name="stickSrc" format="reference" />
+    <attr name="koProgress" format="float" />
+    <attr name="koBackgroundPadding" format="dimension" />
+    <attr name="koRadius" format="dimension" />
+    <attr name="koMax" format="float" />
+    <attr name="koProgressColor" format="reference|color" />
+    <attr name="koBackgroundColor" format="reference|color" />
+    <attr name="koSecondaryProgress" format="float" />
+    <attr name="koSecondaryProgressColor" format="reference|color" />
     <attr name="radius" format="integer" />
     <attr name="vpiCirclePageIndicatorStyle" format="reference" />
     <attr name="centered" format="boolean" />
@@ -40,4 +51,13 @@
     <attr name="strokeColor" format="color" />
     <attr name="strokeWidth" format="dimension" />
     <attr name="view_radius" format="dimension" />
+    <attr name="direction">
+        <enum name="right" value="0" />
+        <enum name="left" value="1" />
+    </attr>
+    <attr name="nameColor" format="color" />
+    <attr name="nameStyle">
+        <enum name="normal" value="0" />
+        <enum name="bold" value="1" />
+    </attr>
 </resources>

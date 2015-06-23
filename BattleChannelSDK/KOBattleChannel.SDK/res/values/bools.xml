@@ -2,6 +2,10 @@
 <resources>
     <bool name="ga_autoActivityTracking">true</bool>
     <bool name="ga_reportUncaughtExceptions">true</bool>
+    <bool name="ko_config_is_blur_background_enable">true</bool>
+    <bool name="ko_config_use_explicit_intent_to_start_activity">false</bool>
+    <bool name="ko_config_is_tool_bar_fragment_enable">true</bool>
+    <bool name="ko_config_use_umeng_report">true</bool>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <bool name="default_line_indicator_centered">true</bool>

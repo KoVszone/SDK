@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/ko_battle_hall_rounded_black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/battle_hall_man_list_fragment_margin_140px" android:layout_marginTop="@dimen/battle_hall_man_list_fragment_margin_100px" android:layout_marginRight="@dimen/battle_hall_man_list_fragment_margin_140px" android:layout_marginBottom="@dimen/battle_hall_man_list_fragment_margin_40px">
+        <TextView android:textSize="@dimen/font_size42px" android:textColor="@color/ko_android_white" android:gravity="center" android:id="@id/ko_battle_hall_man_moves_list_tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_man_list_fragment_margin_35px" android:text="@string/ko_fighter_commands" android:layout_centerHorizontal="true" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/ko_battle_hall_man_moves_list_tv_title" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <cn.vszone.ko.tv.views.CustomGridView android:gravity="center" android:layout_gravity="center" android:id="@id/ko_battle_hall_man_moves_list_grid_view" android:scrollbars="none" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:verticalSpacing="@dimen/battle_hall_man_list_spacing_16px" />
+        </FrameLayout>
+    </RelativeLayout>
+</FrameLayout>

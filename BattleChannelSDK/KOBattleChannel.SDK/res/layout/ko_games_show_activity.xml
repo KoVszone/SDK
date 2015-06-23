@@ -19,6 +19,6 @@
             <cn.vszone.ko.tv.views.KoButton android:textSize="@dimen/font_size64px" android:textStyle="bold" android:textColor="@drawable/ko_prompt_dialog_bt_textcolor_selector" android:id="@id/empty_game_bt_go_home" android:background="@drawable/ko_prompt_dialog_bt_bg" android:layout_width="@dimen/empty_game_bt_882px" android:layout_height="@dimen/empty_game_bt_152px" android:text="@string/ko_empty_game_go_home" />
         </LinearLayout>
     </RelativeLayout>
-    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/operation_iv_tips" android:layout_width="wrap_content" android:layout_height="@dimen/operation_tips_height_58px" android:contentDescription="@string/ko_app_name" />
-    <FrameLayout android:id="@id/main_frame_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_114px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_gravity="bottom|right|center" android:id="@id/operation_iv_tips" android:layout_width="wrap_content" android:layout_height="@dimen/operation_tips_height_58px" android:scaleType="fitEnd" android:contentDescription="@string/ko_app_name" />
+    <FrameLayout android:layout_gravity="top|center" android:id="@id/main_frame_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height_114px" />
 </FrameLayout>

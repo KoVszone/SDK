@@ -8,11 +8,11 @@
             <cn.vszone.ko.widget.image.RoundedImageView android:id="@id/battle_hall_personal_info_avatar" android:layout_width="@dimen/battle_hall_avatar_size_114px" android:layout_height="@dimen/battle_hall_avatar_size_114px" android:src="@drawable/ko_avatar_default" android:scaleType="fitCenter" app:corner_radius="@dimen/radius10px" />
             <LinearLayout android:gravity="left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_20px">
                 <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip">
-                    <ImageView android:layout_width="@dimen/battle_hall_content_item_victory_width_84px" android:layout_height="@dimen/battle_hall_content_item_victory_height_56px" android:src="@drawable/ko_vs_ico_win" android:scaleType="fitCenter" />
+                    <ImageView android:layout_width="@dimen/battle_hall_content_item_victory_width_84px" android:layout_height="@dimen/battle_hall_content_item_victory_height_56px" android:src="@drawable/ko_vs_bg_mark_top_win" android:scaleType="fitCenter" />
                     <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_white_per80" android:id="@id/battle_hall_personal_info_win_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_20px" style="@style/WhiteTextStyle" />
                 </LinearLayout>
                 <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/battle_hall_personal_info_margin_16px">
-                    <ImageView android:layout_gravity="left" android:layout_width="@dimen/battle_hall_content_item_victory_width_84px" android:layout_height="@dimen/battle_hall_content_item_victory_height_56px" android:src="@drawable/ko_vs_ico_lose" android:scaleType="fitCenter" />
+                    <ImageView android:layout_gravity="left" android:layout_width="@dimen/battle_hall_content_item_victory_width_84px" android:layout_height="@dimen/battle_hall_content_item_victory_height_56px" android:src="@drawable/ko_vs_bg_mark_top_lose" android:scaleType="fitCenter" />
                     <TextView android:textSize="@dimen/font_size32px" android:textColor="@color/ko_white_per80" android:id="@id/battle_hall_personal_info_lose_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_margin_20px" style="@style/WhiteTextStyle" />
                 </LinearLayout>
             </LinearLayout>
@@ -24,25 +24,12 @@
         </LinearLayout>
         <include android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/ko_battle_hall_divide_line" />
         <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/battle_hall_personal_info_four_height_142px">
-            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <View android:background="@drawable/ko_vs_bg_mark_top_win" android:layout_width="@dimen/battle_hall_personal_info_win_top_width_153px" android:layout_height="@dimen/battle_hall_personal_info_win_top_height_38px" />
-                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-                    <View android:background="@drawable/ko_vs_bg_mark_down" android:layout_width="@dimen/battle_hall_personal_info_win_bottom_width_153px" android:layout_height="@dimen/battle_hall_personal_info_win_bottom_height_66px" />
-                    <cn.vszone.ko.widget.views.NumberView android:layout_gravity="center_horizontal" android:id="@id/battle_hall_personal_info_daily_win_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_personal_info_win_lose_count_margin_top_6px" app:number="0" app:style="white" xmlns:app="http://schemas.android.com/apk/res-auto" />
-                </FrameLayout>
-            </LinearLayout>
-            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/battle_hall_personal_info_win_lose_margin_12px">
-                <View android:background="@drawable/ko_vs_bg_mark_top_lose" android:layout_width="@dimen/battle_hall_personal_info_win_top_width_153px" android:layout_height="@dimen/battle_hall_personal_info_win_top_height_38px" />
-                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-                    <View android:background="@drawable/ko_vs_bg_mark_down" android:layout_width="@dimen/battle_hall_personal_info_win_bottom_width_153px" android:layout_height="@dimen/battle_hall_personal_info_win_bottom_height_66px" />
-                    <cn.vszone.ko.widget.views.NumberView android:layout_gravity="center_horizontal" android:id="@id/battle_hall_personal_info_daily_lose_count_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battle_hall_personal_info_win_lose_count_margin_top_6px" app:number="0" app:style="white" xmlns:app="http://schemas.android.com/apk/res-auto" />
-                </FrameLayout>
-            </LinearLayout>
+            <cn.vszone.ko.tv.views.BNetRatingPointsView android:id="@id/bnet_hall_personal_ratingpoints_player_rating" android:layout_width="wrap_content" android:layout_height="wrap_content" app:direction="left" app:nameColor="@color/ko_android_white" app:nameStyle="normal" xmlns:app="http://schemas.android.com/apk/res-auto" />
         </LinearLayout>
     </LinearLayout>
-    <FrameLayout android:id="@id/battle_hall_personal_info_floating_view" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="@dimen/battle_hall_personal_info_item_width_410px" android:layout_height="@dimen/battle_hall_personal_info_item_width_410px">
-        <View android:layout_gravity="center" android:background="@drawable/ko_battle_hall_rounded_transparent_floating_floor" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@id/battle_hall_personal_info_floating_view" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="@dimen/battle_hall_personal_info_item_width_410px" android:layout_height="@dimen/battle_hall_personal_info_item_width_410px">
+        <View android:layout_gravity="center" android:background="@drawable/ko_battle_hall_rounded_transparent_floating_floor" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
             <View android:background="@drawable/ko_vs_ico_id" android:layout_width="@dimen/battle_hall_personal_info_ico_size_230px" android:layout_height="@dimen/battle_hall_personal_info_ico_size_230px" />
             <TextView android:textSize="@dimen/font_size58px" android:textStyle="bold" android:textColor="@color/ko_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ko_my_account" style="@style/WhiteTextStyle" />
         </LinearLayout>
